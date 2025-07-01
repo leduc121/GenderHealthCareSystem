@@ -1,0 +1,122 @@
+﻿<Window x:Class="GenderHealthcare.UI.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gender Healthcare Management System" 
+        Height="800" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Background="#FF4A90E2">
+            <Grid>
+                <TextBlock Text="GENDER HEALTHCARE MANAGEMENT SYSTEM" FontSize="20" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="20,0">
+                    <Button Content="Đăng xuất" Background="Transparent" Foreground="White" BorderThickness="1" BorderBrush="White" Padding="15,5" Click="btnLogout_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+        <TabControl Grid.Row="1" Margin="10">
+            <TabItem Header="Quản lý người dùng">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Button Content="Thêm" Click="BtnAddUser_Click" Margin="5"/>
+                        <Button Content="Cập nhật" Click="BtnUpdateUser_Click" Margin="5"/>
+                        <Button Content="Xóa" Click="BtnDeleteUser_Click" Margin="5"/>
+                    </StackPanel>
+                    <DataGrid x:Name="UserGrid" Grid.Row="1" Margin="10" AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding Id}" />
+                            <DataGridTextColumn Header="Tên đăng nhập" Binding="{Binding Username}" />
+                            <DataGridTextColumn Header="Họ" Binding="{Binding FirstName}" />
+                            <DataGridTextColumn Header="Tên" Binding="{Binding LastName}" />
+                            <DataGridTextColumn Header="Ngày sinh" Binding="{Binding DateOfBirth}" />
+                            <DataGridTextColumn Header="Giới tính" Binding="{Binding Gender}" />
+                            <DataGridTextColumn Header="Số điện thoại" Binding="{Binding Phone}" />
+                            <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Quản lý vai trò">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Button Content="Thêm" Click="BtnAddRole_Click" Margin="5"/>
+                        <Button Content="Cập nhật" Click="BtnUpdateRole_Click" Margin="5"/>
+                        <Button Content="Xóa" Click="BtnDeleteRole_Click" Margin="5"/>
+                    </StackPanel>
+                    <DataGrid x:Name="RoleGrid" Grid.Row="1" Margin="10" AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding Id}" />
+                            <DataGridTextColumn Header="Tên vai trò" Binding="{Binding Name}" />
+                            <DataGridTextColumn Header="Mô tả" Binding="{Binding Description}" />
+                            <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Quản lý lịch hẹn">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Button Content="Thêm" Click="BtnAddAppointment_Click" Margin="5"/>
+                        <Button Content="Cập nhật" Click="BtnUpdateAppointment_Click" Margin="5"/>
+                        <Button Content="Xóa" Click="BtnDeleteAppointment_Click" Margin="5"/>
+                    </StackPanel>
+                    <DataGrid x:Name="AppointmentGrid" Grid.Row="1" Margin="10" AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="User ID" Binding="{Binding UserId}" />
+                            <DataGridTextColumn Header="Consultant ID" Binding="{Binding ConsultantId}" />
+                            <DataGridTextColumn Header="Ngày hẹn" Binding="{Binding AppointmentDate}" />
+                            <DataGridTextColumn Header="Trạng thái" Binding="{Binding AppointmentStatus}" />
+                            <DataGridTextColumn Header="Địa điểm" Binding="{Binding AppointmentLocation}" />
+                            <DataGridTextColumn Header="Giờ bắt đầu" Binding="{Binding StartTime}" />
+                            <DataGridTextColumn Header="Giờ kết thúc" Binding="{Binding EndTime}" />
+                            <DataGridTextColumn Header="Giá cố định" Binding="{Binding FixedPrice}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Quản lý hồ sơ cố vấn">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <Button Content="Thêm" Click="BtnAddConsultantProfile_Click" Margin="5"/>
+                        <Button Content="Cập nhật" Click="BtnUpdateConsultantProfile_Click" Margin="5"/>
+                        <Button Content="Xóa" Click="BtnDeleteConsultantProfile_Click" Margin="5"/>
+                    </StackPanel>
+                    <DataGrid x:Name="ConsultantProfileGrid" Grid.Row="1" Margin="10" AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Consultant ID" Binding="{Binding ConsultantId}" />
+                            <DataGridTextColumn Header="Chuyên môn" Binding="{Binding Specialization}" />
+                            <DataGridTextColumn Header="Trình độ" Binding="{Binding Qualification}" />
+                            <DataGridTextColumn Header="Kinh nghiệm" Binding="{Binding Experience}" />
+                            <DataGridTextColumn Header="Phí tư vấn" Binding="{Binding ConsultationFee}" />
+                            <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Border Grid.Row="2" Background="#FF4A90E2">
+            <TextBlock Text="© 2025 Gender Healthcare System. All rights reserved." Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="10"/>
+        </Border>
+    </Grid>
+</Window>

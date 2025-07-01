@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenderHealthcare.UI", "GenderHealthcare.UI\GenderHealthcare.UI.csproj", "{B85AD9D3-BFB6-497B-A781-033F5264C69B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenderHealthcare.DAL", "GenderHealthcare.DAL\GenderHealthcare.DAL.csproj", "{03486949-3A27-4248-94F9-B1E69D544B2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenderHealthcare.BLL", "GenderHealthcare.BLL\GenderHealthcare.BLL.csproj", "{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B85AD9D3-BFB6-497B-A781-033F5264C69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85AD9D3-BFB6-497B-A781-033F5264C69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85AD9D3-BFB6-497B-A781-033F5264C69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85AD9D3-BFB6-497B-A781-033F5264C69B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03486949-3A27-4248-94F9-B1E69D544B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03486949-3A27-4248-94F9-B1E69D544B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03486949-3A27-4248-94F9-B1E69D544B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03486949-3A27-4248-94F9-B1E69D544B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D37B11C-CB06-4E53-9F3D-73D08E3B0C97}
+	EndGlobalSection
+EndGlobal

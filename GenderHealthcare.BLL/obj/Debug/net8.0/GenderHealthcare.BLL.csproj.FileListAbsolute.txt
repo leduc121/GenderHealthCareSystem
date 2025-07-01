@@ -1,0 +1,15 @@
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.BLL.deps.json
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.BLL.dll
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.BLL.pdb
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.DAL.dll
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.DAL.pdb
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.csproj.AssemblyReference.cache
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.AssemblyInfoInputs.cache
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.AssemblyInfo.cs
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.csproj.CoreCompileInputs.cache
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHe.300BC247.Up2Date
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.dll
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\refint\GenderHealthcare.BLL.dll
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.pdb
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\ref\GenderHealthcare.BLL.dll
