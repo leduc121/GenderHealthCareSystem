@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="GenderHealthcare.UI.Views.FeedbackManagementView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <Button Content="Thêm" FontFamily="Arial" Click="BtnAddFeedback_Click" Margin="5"/>
+            <Button Content="Cập nhật" FontFamily="Arial" Click="BtnUpdateFeedback_Click" Margin="5"/>
+            <Button Content="Xóa" FontFamily="Arial" Click="BtnDeleteFeedback_Click" Margin="5"/>
+        </StackPanel>
+        <DataGrid x:Name="FeedbackGrid" Grid.Row="1" Margin="10" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Consultant ID" FontFamily="Arial" Binding="{Binding ConsultantId}" />
+                <DataGridTextColumn Header="User ID" FontFamily="Arial" Binding="{Binding UserId}" />
+                <DataGridTextColumn Header="Ngày phản hồi" FontFamily="Arial" Binding="{Binding FeedbackDate}" />
+                <DataGridTextColumn Header="Đánh giá" FontFamily="Arial" Binding="{Binding Rating}" />
+                <DataGridTextColumn Header="Nội dung" FontFamily="Arial" Binding="{Binding FeedbackContent}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

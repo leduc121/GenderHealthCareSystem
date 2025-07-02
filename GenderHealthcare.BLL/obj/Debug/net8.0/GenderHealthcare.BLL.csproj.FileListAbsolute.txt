@@ -13,3 +13,4 @@ D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealth
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\refint\GenderHealthcare.BLL.dll
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.pdb
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\ref\GenderHealthcare.BLL.dll
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.sourcelink.json

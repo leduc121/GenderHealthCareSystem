@@ -41,12 +41,26 @@ namespace GenderHealthcare.DAL.Repositories
             return entity;
         }
 
+        private object GetPrimaryKeyValue(T entity)
+        {
+            var keyProperty = typeof(T).GetProperty("Id");
+            return keyProperty?.GetValue(entity);
+        }
+
+
         public virtual async Task<T> UpdateAsync(T entity)
         {
-            _dbSet.Update(entity);
+            var existingEntity = await _dbSet.FindAsync(GetPrimaryKeyValue(entity));
+            if (existingEntity == null)
+            {
+                throw new Exception("Entity not found");
+            }
+
+            _context.Entry(existingEntity).CurrentValues.SetValues(entity);
             await _context.SaveChangesAsync();
-            return entity;
+            return existingEntity;
         }
+
 
         public virtual async Task<bool> DeleteAsync(string id)
         {

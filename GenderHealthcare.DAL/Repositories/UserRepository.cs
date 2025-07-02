@@ -1,4 +1,4 @@
-﻿using GenderHealthcare.DAL.Entities;
+﻿    using GenderHealthcare.DAL.Entities;
 using GenderHealthcare.DAL.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
@@ -24,5 +24,7 @@ namespace GenderHealthcare.DAL.Repositories
             var user = await GetByUsernameAsync(username);
             return user != null && user.Password == password; // Nên hash password
         }
+
+
     }
 }

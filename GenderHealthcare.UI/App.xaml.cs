@@ -13,15 +13,18 @@ namespace GenderHealthcare.UI
 {
     public partial class App : Application
     {
-        private IHost _host;
+        // THÊM PROPERTY NÀY ĐỂ TRUY CẬP TỪ BÊN NGOÀI
+        public static IHost? AppHost { get; private set; }
 
         public App()
         {
             try
             {
-                _host = Host.CreateDefaultBuilder()
+                // Gán giá trị cho property mới
+                AppHost = Host.CreateDefaultBuilder()
                     .ConfigureServices((context, services) =>
                     {
+                        // Toàn bộ phần đăng ký service của bạn giữ nguyên
                         services.AddDbContext<GenderHealthcareContext>(options =>
                             options.UseSqlServer("Server=LAPTOP-13VQHGC\\SQLEXPRESS;uid=sa;pwd=12345;database=gender_healthcare_db;TrustServerCertificate=True")
                                    .EnableSensitiveDataLogging(true));
@@ -30,10 +33,16 @@ namespace GenderHealthcare.UI
                         services.AddScoped<IRoleRepository, RoleRepository>();
                         services.AddScoped<IAppointmentRepository, AppointmentRepository>();
                         services.AddScoped<IConsultantProfileRepository, ConsultantProfileRepository>();
+
+                        // Đăng ký cho chức năng mới
+                        services.AddScoped<MenstrualCycleRepository>();
+                        services.AddScoped<ICycleService, CycleService>();
+
                         services.AddScoped<IUserService, UserService>();
                         services.AddScoped<IRoleService, RoleService>();
                         services.AddScoped<IAppointmentService, AppointmentService>();
                         services.AddScoped<IConsultantProfileService, ConsultantProfileService>();
+
                         services.AddTransient<MainWindow>(sp =>
                             ActivatorUtilities.CreateInstance<MainWindow>(sp,
                                 sp.GetRequiredService<IUserService>(),
@@ -59,7 +68,7 @@ namespace GenderHealthcare.UI
 
         protected override async void OnStartup(StartupEventArgs e)
         {
-            if (_host == null)
+            if (AppHost == null)
             {
                 MessageBox.Show("Không thể khởi tạo ứng dụng. Đóng ngay.");
                 Shutdown();
@@ -68,13 +77,13 @@ namespace GenderHealthcare.UI
 
             try
             {
-                await _host.StartAsync();
-                var loginWindow = _host.Services.GetRequiredService<LoginWindow>();
+                await AppHost.StartAsync();
+                var loginWindow = AppHost.Services.GetRequiredService<LoginWindow>();
                 loginWindow.Show();
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi mở cửa sổ đăng nhập: {ex.Message}");
+                MessageBox.Show($"Lỗi mở cửa sổ đăng nhập: {ex.InnerException?.Message ?? ex.Message}");
                 Shutdown();
             }
 
@@ -83,10 +92,10 @@ namespace GenderHealthcare.UI
 
         protected override async void OnExit(ExitEventArgs e)
         {
-            if (_host != null)
+            if (AppHost != null)
             {
-                await _host.StopAsync();
-                _host.Dispose();
+                await AppHost.StopAsync();
+                AppHost.Dispose();
             }
             base.OnExit(e);
         }

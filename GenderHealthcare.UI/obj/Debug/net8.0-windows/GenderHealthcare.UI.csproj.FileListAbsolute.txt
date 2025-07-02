@@ -90,3 +90,12 @@ D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Micro
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.sourcelink.json
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\PaymentManagementView.baml
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\PaymentManagementView.g.cs
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\FeedbackManagementView.baml
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\FeedbackManagementView.g.cs
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI_MarkupCompile.lref
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\CycleTrackerView.baml
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\CycleTrackerView.g.cs

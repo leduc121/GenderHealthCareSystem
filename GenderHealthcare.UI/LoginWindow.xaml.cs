@@ -36,9 +36,16 @@ namespace GenderHealthcare.UI.Views
                 bool isValid = await _userService.ValidateLoginAsync(username, password);
                 if (isValid)
                 {
-                    var mainWindow = _serviceProvider.GetRequiredService<MainWindow>();
-                    mainWindow.Show();
-                    this.Close();
+                    try
+                    {
+                        var mainWindow = _serviceProvider.GetRequiredService<MainWindow>();
+                        mainWindow.Show();
+                        this.Close();
+                    }
+                    catch (Exception ex)
+                    {
+                        lblMessage.Text = $"Lỗi mở MainWindow: {ex.Message}";
+                    }
                 }
                 else
                 {

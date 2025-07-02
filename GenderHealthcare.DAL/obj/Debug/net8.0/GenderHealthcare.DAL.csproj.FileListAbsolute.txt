@@ -12,3 +12,4 @@ D:\ASP\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\refint\Gende
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.pdb
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.genruntimeconfig.cache
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\ref\GenderHealthcare.DAL.dll
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.sourcelink.json

@@ -13,6 +13,7 @@ namespace GenderHealthcare.BLL.DTOs
         public string Phone { get; set; }
         public string ProfilePicture { get; set; }
         public bool? Status { get; set; }
+        public string RoleName { get; set; } 
         public DateTime? UpdatedAt { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }

@@ -2,7 +2,7 @@
 using GenderHealthcare.BLL.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -17,6 +17,11 @@ namespace GenderHealthcare.UI.Views
         private readonly IConsultantProfileService _consultantProfileService;
         private readonly IServiceProvider _serviceProvider;
 
+        private ObservableCollection<UserDTO> _users = new ObservableCollection<UserDTO>();
+        private ObservableCollection<RoleDTO> _roles = new ObservableCollection<RoleDTO>();
+        private ObservableCollection<AppointmentDTO> _appointments = new ObservableCollection<AppointmentDTO>();
+        private ObservableCollection<ConsultantProfileDTO> _consultantProfiles = new ObservableCollection<ConsultantProfileDTO>();
+
         public MainWindow(IUserService userService, IRoleService roleService, IAppointmentService appointmentService, IConsultantProfileService consultantProfileService, IServiceProvider serviceProvider)
         {
             InitializeComponent();
@@ -26,6 +31,11 @@ namespace GenderHealthcare.UI.Views
             _consultantProfileService = consultantProfileService ?? throw new ArgumentNullException(nameof(consultantProfileService));
             _serviceProvider = serviceProvider ?? throw new ArgumentNullException(nameof(serviceProvider));
             Loaded += MainWindow_Loaded;
+
+            UserGrid.ItemsSource = _users;
+            RoleGrid.ItemsSource = _roles;
+            AppointmentGrid.ItemsSource = _appointments;
+            ConsultantProfileGrid.ItemsSource = _consultantProfiles;
         }
 
         private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
@@ -53,7 +63,8 @@ namespace GenderHealthcare.UI.Views
             try
             {
                 var users = await _userService.GetAllUsersAsync();
-                UserGrid.ItemsSource = users ?? new List<UserDTO>();
+                _users.Clear();
+                if (users != null) foreach (var user in users) _users.Add(user);
             }
             catch (Exception ex)
             {
@@ -66,7 +77,8 @@ namespace GenderHealthcare.UI.Views
             try
             {
                 var roles = await _roleService.GetAllRolesAsync();
-                RoleGrid.ItemsSource = roles ?? new List<RoleDTO>();
+                _roles.Clear();
+                if (roles != null) foreach (var role in roles) _roles.Add(role);
             }
             catch (Exception ex)
             {
@@ -79,7 +91,8 @@ namespace GenderHealthcare.UI.Views
             try
             {
                 var appointments = await _appointmentService.GetAllAppointmentsAsync();
-                AppointmentGrid.ItemsSource = appointments ?? new List<AppointmentDTO>();
+                _appointments.Clear();
+                if (appointments != null) foreach (var appointment in appointments) _appointments.Add(appointment);
             }
             catch (Exception ex)
             {
@@ -92,7 +105,8 @@ namespace GenderHealthcare.UI.Views
             try
             {
                 var profiles = await _consultantProfileService.GetAllConsultantProfilesAsync();
-                ConsultantProfileGrid.ItemsSource = profiles ?? new List<ConsultantProfileDTO>();
+                _consultantProfiles.Clear();
+                if (profiles != null) foreach (var profile in profiles) _consultantProfiles.Add(profile);
             }
             catch (Exception ex)
             {
@@ -116,13 +130,28 @@ namespace GenderHealthcare.UI.Views
 
         private async void BtnUpdateUser_Click(object sender, RoutedEventArgs e)
         {
+            var selectedUser = UserGrid.SelectedItem as UserDTO;
+            if (selectedUser == null)
+            {
+                MessageBox.Show("Vui lòng chọn một người dùng để cập nhật!");
+                return;
+            }
+
             try
             {
-                var selectedUser = UserGrid.SelectedItem as UserDTO;
-                if (selectedUser != null)
+                var updatedUser = await _userService.UpdateUserAsync(selectedUser);
+                if (updatedUser != null)
                 {
-                    var updatedUser = await _userService.UpdateUserAsync(selectedUser);
-                    if (updatedUser != null) await LoadUsers();
+                    var index = _users.IndexOf(selectedUser);
+                    if (index >= 0)
+                    {
+                        _users[index] = updatedUser;
+                        await LoadUsers();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tìm thấy người dùng để cập nhật!");
+                    }
                 }
             }
             catch (Exception ex)
@@ -164,13 +193,28 @@ namespace GenderHealthcare.UI.Views
 
         private async void BtnUpdateRole_Click(object sender, RoutedEventArgs e)
         {
+            var selectedRole = RoleGrid.SelectedItem as RoleDTO;
+            if (selectedRole == null)
+            {
+                MessageBox.Show("Vui lòng chọn một vai trò để cập nhật!");
+                return;
+            }
+
             try
             {
-                var selectedRole = RoleGrid.SelectedItem as RoleDTO;
-                if (selectedRole != null)
+                var updatedRole = await _roleService.UpdateRoleAsync(selectedRole);
+                if (updatedRole != null)
                 {
-                    var updatedRole = await _roleService.UpdateRoleAsync(selectedRole);
-                    if (updatedRole != null) await LoadRoles();
+                    var index = _roles.IndexOf(selectedRole);
+                    if (index >= 0)
+                    {
+                        _roles[index] = updatedRole;
+                        await LoadRoles();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tìm thấy vai trò để cập nhật!");
+                    }
                 }
             }
             catch (Exception ex)
@@ -217,13 +261,28 @@ namespace GenderHealthcare.UI.Views
 
         private async void BtnUpdateAppointment_Click(object sender, RoutedEventArgs e)
         {
+            var selectedAppointment = AppointmentGrid.SelectedItem as AppointmentDTO;
+            if (selectedAppointment == null)
+            {
+                MessageBox.Show("Vui lòng chọn một lịch hẹn để cập nhật!");
+                return;
+            }
+
             try
             {
-                var selectedAppointment = AppointmentGrid.SelectedItem as AppointmentDTO;
-                if (selectedAppointment != null)
+                var updatedAppointment = await _appointmentService.UpdateAppointmentAsync(selectedAppointment);
+                if (updatedAppointment != null)
                 {
-                    var updatedAppointment = await _appointmentService.UpdateAppointmentAsync(selectedAppointment);
-                    if (updatedAppointment != null) await LoadAppointments();
+                    var index = _appointments.IndexOf(selectedAppointment);
+                    if (index >= 0)
+                    {
+                        _appointments[index] = updatedAppointment;
+                        await LoadAppointments();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tìm thấy lịch hẹn để cập nhật!");
+                    }
                 }
             }
             catch (Exception ex)
@@ -265,13 +324,28 @@ namespace GenderHealthcare.UI.Views
 
         private async void BtnUpdateConsultantProfile_Click(object sender, RoutedEventArgs e)
         {
+            var selectedProfile = ConsultantProfileGrid.SelectedItem as ConsultantProfileDTO;
+            if (selectedProfile == null)
+            {
+                MessageBox.Show("Vui lòng chọn một hồ sơ cố vấn để cập nhật!");
+                return;
+            }
+
             try
             {
-                var selectedProfile = ConsultantProfileGrid.SelectedItem as ConsultantProfileDTO;
-                if (selectedProfile != null)
+                var updatedProfile = await _consultantProfileService.UpdateConsultantProfileAsync(selectedProfile);
+                if (updatedProfile != null)
                 {
-                    var updatedProfile = await _consultantProfileService.UpdateConsultantProfileAsync(selectedProfile);
-                    if (updatedProfile != null) await LoadConsultantProfiles();
+                    var index = _consultantProfiles.IndexOf(selectedProfile);
+                    if (index >= 0)
+                    {
+                        _consultantProfiles[index] = updatedProfile;
+                        await LoadConsultantProfiles();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tìm thấy hồ sơ cố vấn để cập nhật!");
+                    }
                 }
             }
             catch (Exception ex)
