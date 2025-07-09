@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GenderHealthcare.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f465b292d225808670394682f8c5b6c3edf911ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17972a45a88ff047dde4ecf5c83d96dcf1c4e8a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("GenderHealthcare.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GenderHealthcare.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
