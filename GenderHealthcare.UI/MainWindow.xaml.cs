@@ -15,20 +15,33 @@ namespace GenderHealthcare.UI.Views
         private readonly IRoleService _roleService;
         private readonly IAppointmentService _appointmentService;
         private readonly IConsultantProfileService _consultantProfileService;
+        private readonly IBlogService _blogService;
+        private readonly ICurrentUserService _currentUserService;
         private readonly IServiceProvider _serviceProvider;
 
         private ObservableCollection<UserDTO> _users = new ObservableCollection<UserDTO>();
         private ObservableCollection<RoleDTO> _roles = new ObservableCollection<RoleDTO>();
         private ObservableCollection<AppointmentDTO> _appointments = new ObservableCollection<AppointmentDTO>();
         private ObservableCollection<ConsultantProfileDTO> _consultantProfiles = new ObservableCollection<ConsultantProfileDTO>();
+        private ObservableCollection<BlogDTO> _blogs = new ObservableCollection<BlogDTO>();
+        private bool _isAdmin;
 
-        public MainWindow(IUserService userService, IRoleService roleService, IAppointmentService appointmentService, IConsultantProfileService consultantProfileService, IServiceProvider serviceProvider)
+        public MainWindow(
+            IUserService userService,
+            IRoleService roleService,
+            IAppointmentService appointmentService,
+            IConsultantProfileService consultantProfileService,
+            IBlogService blogService,
+            ICurrentUserService currentUserService,
+            IServiceProvider serviceProvider)
         {
             InitializeComponent();
             _userService = userService ?? throw new ArgumentNullException(nameof(userService));
             _roleService = roleService ?? throw new ArgumentNullException(nameof(roleService));
             _appointmentService = appointmentService ?? throw new ArgumentNullException(nameof(appointmentService));
             _consultantProfileService = consultantProfileService ?? throw new ArgumentNullException(nameof(consultantProfileService));
+            _blogService = blogService ?? throw new ArgumentNullException(nameof(blogService));
+            _currentUserService = currentUserService ?? throw new ArgumentNullException(nameof(currentUserService));
             _serviceProvider = serviceProvider ?? throw new ArgumentNullException(nameof(serviceProvider));
             Loaded += MainWindow_Loaded;
 
@@ -36,7 +49,13 @@ namespace GenderHealthcare.UI.Views
             RoleGrid.ItemsSource = _roles;
             AppointmentGrid.ItemsSource = _appointments;
             ConsultantProfileGrid.ItemsSource = _consultantProfiles;
+            BlogGrid.ItemsSource = _blogs;
+
+            DataContext = this;
         }
+
+        public ObservableCollection<BlogDTO> Blogs => _blogs;
+        public bool IsAdmin => _isAdmin;
 
         private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
@@ -47,14 +66,29 @@ namespace GenderHealthcare.UI.Views
         {
             try
             {
+                _isAdmin = await CheckIsAdminAsync();
                 await LoadUsers();
                 await LoadRoles();
                 await LoadAppointments();
                 await LoadConsultantProfiles();
+                await LoadBlogs();
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Lỗi tải dữ liệu: {ex.Message}");
+            }
+        }
+
+        private async Task<bool> CheckIsAdminAsync()
+        {
+            try
+            {
+                var roles = await _currentUserService.GetUserRolesAsync();
+                return roles.Any(r => r.Name == "Admin");
+            }
+            catch
+            {
+                return false;
             }
         }
 
@@ -111,6 +145,20 @@ namespace GenderHealthcare.UI.Views
             catch (Exception ex)
             {
                 MessageBox.Show($"Lỗi tải hồ sơ cố vấn: {ex.Message}");
+            }
+        }
+
+        private async Task LoadBlogs()
+        {
+            try
+            {
+                var blogs = await _blogService.GetAllBlogsAsync();
+                _blogs.Clear();
+                if (blogs != null) foreach (var blog in blogs) _blogs.Add(blog);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi tải blog: {ex.Message}");
             }
         }
 
@@ -368,6 +416,90 @@ namespace GenderHealthcare.UI.Views
             catch (Exception ex)
             {
                 MessageBox.Show($"Lỗi xóa hồ sơ cố vấn: {ex.Message}");
+            }
+        }
+
+        private async void BtnAddBlog_Click(object sender, RoutedEventArgs e)
+        {
+            if (!_isAdmin)
+            {
+                MessageBox.Show("Chỉ Admin mới có thể thêm blog!");
+                return;
+            }
+
+            try
+            {
+                var blogWindow = _serviceProvider.GetRequiredService<BlogWindow>();
+                blogWindow.Blog = new BlogDTO
+                {
+                    Id = Guid.NewGuid().ToString(),
+                    PublishedDate = DateTime.Now,
+                    Status = true,
+                    AuthorId = _currentUserService.UserId // Giả định Admin là tác giả
+                };
+                if (blogWindow.ShowDialog() == true)
+                {
+                    await _blogService.CreateBlogAsync(blogWindow.Blog);
+                    await LoadBlogs();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi thêm blog: {ex.Message}");
+            }
+        }
+
+        private async void BtnUpdateBlog_Click(object sender, RoutedEventArgs e)
+        {
+            if (!_isAdmin)
+            {
+                MessageBox.Show("Chỉ Admin mới có thể cập nhật blog!");
+                return;
+            }
+
+            var selectedBlog = BlogGrid.SelectedItem as BlogDTO;
+            if (selectedBlog == null)
+            {
+                MessageBox.Show("Vui lòng chọn một blog để cập nhật!");
+                return;
+            }
+
+            try
+            {
+                var blogWindow = _serviceProvider.GetRequiredService<BlogWindow>();
+                blogWindow.Blog = selectedBlog;
+                if (blogWindow.ShowDialog() == true)
+                {
+                    await _blogService.UpdateBlogAsync(selectedBlog.Id, blogWindow.Blog);
+                    await LoadBlogs();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi cập nhật blog: {ex.Message}");
+            }
+        }
+
+        private async void BtnDeleteBlog_Click(object sender, RoutedEventArgs e)
+        {
+            if (!_isAdmin)
+            {
+                MessageBox.Show("Chỉ Admin mới có thể xóa blog!");
+                return;
+            }
+
+            try
+            {
+                var selectedBlog = BlogGrid.SelectedItem as BlogDTO;
+                if (selectedBlog != null)
+                {
+                    var result = await _blogService.DeleteBlogAsync(selectedBlog.Id);
+                    if (result) await LoadBlogs();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi xóa blog: {ex.Message}");
             }
         }
 

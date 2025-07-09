@@ -1,90 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ASP\\GenderHealthcareSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.ui\\cycletrackerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\cycletrackerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.ui\\cycletrackerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\cycletrackerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.ui\\feedbackmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\feedbackmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.ui\\feedbackmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\feedbackmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.bll\\services\\cycleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|solutionrelative:genderhealthcare.bll\\services\\cycleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.bll\\interfaces\\icycleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|solutionrelative:genderhealthcare.bll\\interfaces\\icycleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.bll\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|solutionrelative:genderhealthcare.bll\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.dal\\repositories\\menstrualcyclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\repositories\\menstrualcyclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.dal\\entities\\menstrualcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\entities\\menstrualcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|solutionrelative:genderhealthcare.bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.dal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.dal\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|solutionrelative:genderhealthcare.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.ui\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.ui\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.ui\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GenderHealthcare.UI\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|d:\\asp\\genderhealthcaresystem\\genderhealthcare.ui\\paymentmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\paymentmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.dal\\repositories\\consultantprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\repositories\\consultantprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.dal\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.dal\\repositories\\consultantfeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\repositories\\consultantfeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.bll\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|solutionrelative:genderhealthcare.bll\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.bll\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|solutionrelative:genderhealthcare.bll\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.dal\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.dal\\entities\\genderhealthcarecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\entities\\genderhealthcarecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.bll\\services\\consultantfeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|solutionrelative:genderhealthcare.bll\\services\\consultantfeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.bll\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|solutionrelative:genderhealthcare.bll\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.bll\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|solutionrelative:genderhealthcare.bll\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.dal\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03486949-3A27-4248-94F9-B1E69D544B2A}|GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj|solutionrelative:genderhealthcare.dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|c:\\users\\admin\\documents\\zalo received files\\genderhealthcaresystem\\genderhealthcare.bll\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F25E5CE-2585-4976-A5F2-88DAE4EC5C7A}|GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj|solutionrelative:genderhealthcare.bll\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,255 +90,256 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 16,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FeedbackManagementView.xaml",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\FeedbackManagementView.xaml",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\FeedbackManagementView.xaml",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\FeedbackManagementView.xaml",
-              "RelativeToolTip": "GenderHealthcare.UI\\FeedbackManagementView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-01T16:56:53.865Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FeedbackManagementView.xaml.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\FeedbackManagementView.xaml.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\FeedbackManagementView.xaml.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\FeedbackManagementView.xaml.cs",
-              "RelativeToolTip": "GenderHealthcare.UI\\FeedbackManagementView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T16:56:46.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICycleService.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Interfaces\\ICycleService.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Interfaces\\ICycleService.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Interfaces\\ICycleService.cs",
-              "RelativeToolTip": "GenderHealthcare.BLL\\Interfaces\\ICycleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T16:35:07.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\AuthService.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.BLL\\AuthService.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\AuthService.cs",
-              "RelativeToolTip": "GenderHealthcare.BLL\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T16:28:16.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CycleTrackerView.xaml.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\CycleTrackerView.xaml.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\CycleTrackerView.xaml.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\CycleTrackerView.xaml.cs",
-              "RelativeToolTip": "GenderHealthcare.UI\\CycleTrackerView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T16:24:53.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CycleTrackerView.xaml",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\CycleTrackerView.xaml",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\CycleTrackerView.xaml",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\CycleTrackerView.xaml",
-              "RelativeToolTip": "GenderHealthcare.UI\\CycleTrackerView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-01T16:24:24.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CycleService.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\CycleService.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Services\\CycleService.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\CycleService.cs",
-              "RelativeToolTip": "GenderHealthcare.BLL\\Services\\CycleService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAmwCkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T16:23:43.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MenstrualCycleRepository.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\MenstrualCycleRepository.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\MenstrualCycleRepository.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\MenstrualCycleRepository.cs",
-              "RelativeToolTip": "GenderHealthcare.DAL\\Repositories\\MenstrualCycleRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAADwvxgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T16:20:02.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MenstrualCycle.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Entities\\MenstrualCycle.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Entities\\MenstrualCycle.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Entities\\MenstrualCycle.cs",
-              "RelativeToolTip": "GenderHealthcare.DAL\\Entities\\MenstrualCycle.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T16:18:35.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.BLL\\DTOs\\UserDTO.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "GenderHealthcare.BLL\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T16:12:33.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "GenderHealthcare.DAL\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T16:12:16.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "GenderHealthcare.DAL\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T16:09:21.818Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\Repository.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\Repository.cs",
-              "RelativeToolTip": "GenderHealthcare.DAL\\Repositories\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:26:01.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Services\\UserService.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\UserService.cs",
-              "RelativeToolTip": "GenderHealthcare.BLL\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:19:51.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\LoginWindow.xaml.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "GenderHealthcare.UI\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAADwvzgAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:13:11.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\App.xaml.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\App.xaml.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\App.xaml.cs",
-              "RelativeToolTip": "GenderHealthcare.UI\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:12:54.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\App.xaml",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\App.xaml",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\App.xaml",
-              "RelativeToolTip": "GenderHealthcare.UI\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-01T15:12:52.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "GenderHealthcare.UI\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAiwHYBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:05:33.209Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "GenderHealthcare.UI\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\LoginWindow.xaml",
+              "RelativeToolTip": "GenderHealthcare.UI\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-09T17:04:06.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.g.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeToolTip": "GenderHealthcare.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwDIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T18:56:22.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "GenderHealthcare.DAL\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADgvwkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T14:08:21.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConsultantFeedbackRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\ConsultantFeedbackRepository.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\ConsultantFeedbackRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\ConsultantFeedbackRepository.cs",
+              "RelativeToolTip": "GenderHealthcare.DAL\\Repositories\\ConsultantFeedbackRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T14:08:10.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConsultantProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\ConsultantProfileRepository.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\ConsultantProfileRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\ConsultantProfileRepository.cs",
+              "RelativeToolTip": "GenderHealthcare.DAL\\Repositories\\ConsultantProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T13:44:42.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\Repository.cs",
+              "RelativeToolTip": "GenderHealthcare.DAL\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T13:48:56.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "GenderHealthcare.BLL\\Services\\AppointmentService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwEEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T13:43:42.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Interfaces\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Interfaces\\IAppointmentService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Interfaces\\IAppointmentService.cs",
+              "RelativeToolTip": "GenderHealthcare.BLL\\Interfaces\\IAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T13:43:21.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\RoleService.cs",
+              "RelativeToolTip": "GenderHealthcare.BLL\\Services\\RoleService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAIwGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T10:29:14.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "GenderHealthcare.DAL\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAYwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T10:22:43.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\MainWindow.xaml",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\MainWindow.xaml",
               "RelativeToolTip": "GenderHealthcare.UI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-01T15:05:00.828Z"
+              "WhenOpened": "2025-07-07T11:45:12.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConsultantFeedbackService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\ConsultantFeedbackService.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Services\\ConsultantFeedbackService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\ConsultantFeedbackService.cs",
+              "RelativeToolTip": "GenderHealthcare.BLL\\Services\\ConsultantFeedbackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T12:49:44.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Interfaces\\IRoleService.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Interfaces\\IRoleService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Interfaces\\IRoleService.cs",
+              "RelativeToolTip": "GenderHealthcare.BLL\\Interfaces\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T10:30:53.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.UI\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "GenderHealthcare.UI\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAUwDgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T12:32:02.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.UI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GenderHealthcare.UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwHUBAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:50:20.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.UI\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\App.xaml.cs",
+              "RelativeToolTip": "GenderHealthcare.UI\\App.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwvzUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:24:26.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "GenderHealthcare.DAL\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T10:27:29.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Entities\\User.cs",
+              "RelativeToolTip": "GenderHealthcare.DAL\\Entities\\User.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwDkAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:40:56.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GenderHealthcareContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Entities\\GenderHealthcareContext.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Entities\\GenderHealthcareContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Entities\\GenderHealthcareContext.cs",
+              "RelativeToolTip": "GenderHealthcare.DAL\\Entities\\GenderHealthcareContext.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwDkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T14:54:09.403Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "App.g.cs",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "RelativeToolTip": "GenderHealthcare.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADIAAAAMAAAAAAAAAA==",
+              "Title": "RoleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\DTOs\\RoleDTO.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.BLL\\DTOs\\RoleDTO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\DTOs\\RoleDTO.cs",
+              "RelativeToolTip": "GenderHealthcare.BLL\\DTOs\\RoleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T14:59:56.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PaymentManagementView.xaml",
-              "DocumentMoniker": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\PaymentManagementView.xaml",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\PaymentManagementView.xaml",
-              "ToolTip": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\PaymentManagementView.xaml",
-              "RelativeToolTip": "GenderHealthcare.UI\\PaymentManagementView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-01T14:57:03.403Z"
+              "WhenOpened": "2025-07-06T10:36:03.311Z"
             }
           ]
         }
