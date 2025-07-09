@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GenderHealthcare.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c291297052aa08b074294d6de14ba63f688a64d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7523a6c949ceaf1c738e6a14bc4371db0b06d4d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("GenderHealthcare.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GenderHealthcare.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

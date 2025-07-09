@@ -3965,11 +3965,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\GenderHealthcare.UI.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\GenderHealthcare.UI.csproj",
       "projectName": "GenderHealthcare.UI",
-      "projectPath": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\GenderHealthcare.UI.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\GenderHealthcare.UI.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3990,11 +3990,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj": {
-              "projectPath": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj"
+            "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj"
             },
-            "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj": {
-              "projectPath": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj"
+            "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj"
             }
           }
         }

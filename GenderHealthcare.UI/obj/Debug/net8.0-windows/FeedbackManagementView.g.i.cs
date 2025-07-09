@@ -60,7 +60,7 @@ namespace GenderHealthcare.UI.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GenderHealthcare.UI;component/feedbackmanagementview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GenderHealthcare.UI;V1.0.0.0;component/feedbackmanagementview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\FeedbackManagementView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
