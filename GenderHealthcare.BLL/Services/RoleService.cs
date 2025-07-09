@@ -2,6 +2,7 @@
 using GenderHealthcare.BLL.Interfaces;
 using GenderHealthcare.DAL.Entities;
 using GenderHealthcare.DAL.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,39 +15,59 @@ namespace GenderHealthcare.BLL.Services
 
         public RoleService(IRoleRepository roleRepository)
         {
-            _roleRepository = roleRepository;
+            _roleRepository = roleRepository ?? throw new ArgumentNullException(nameof(roleRepository));
         }
 
         public async Task<IEnumerable<RoleDTO>> GetAllRolesAsync()
         {
             var roles = await _roleRepository.GetAllAsync();
-            return roles.Select(r => MapToDTO(r));
-        }
-
-        public async Task<RoleDTO> GetRoleByIdAsync(string id)
-        {
-            var role = await _roleRepository.GetByIdAsync(id);
-            return role != null ? MapToDTO(role) : null;
-        }
-
-        public async Task<RoleDTO> GetRoleByNameAsync(string name)
-        {
-            var role = await _roleRepository.GetByNameAsync(name);
-            return role != null ? MapToDTO(role) : null;
+            return roles.Select(r => new RoleDTO
+            {
+                Id = r.Id,
+                Name = r.Name,
+                Description = r.Description,
+                Status = r.Status ?? false
+            });
         }
 
         public async Task<RoleDTO> CreateRoleAsync(RoleDTO roleDto)
         {
-            var role = MapToEntity(roleDto);
+            var role = new Role
+            {
+                Id = Guid.NewGuid().ToString(),
+                Name = roleDto.Name,
+                Description = roleDto.Description,
+                Status = roleDto.Status
+            };
+
             var createdRole = await _roleRepository.AddAsync(role);
-            return MapToDTO(createdRole);
+            return new RoleDTO
+            {
+                Id = createdRole.Id,
+                Name = createdRole.Name,
+                Description = createdRole.Description,
+                Status = createdRole.Status ?? false
+            };
         }
 
         public async Task<RoleDTO> UpdateRoleAsync(RoleDTO roleDto)
         {
-            var role = MapToEntity(roleDto);
+            var role = new Role
+            {
+                Id = roleDto.Id,
+                Name = roleDto.Name,
+                Description = roleDto.Description,
+                Status = roleDto.Status
+            };
+
             var updatedRole = await _roleRepository.UpdateAsync(role);
-            return MapToDTO(updatedRole);
+            return new RoleDTO
+            {
+                Id = updatedRole.Id,
+                Name = updatedRole.Name,
+                Description = updatedRole.Description,
+                Status = updatedRole.Status ?? false
+            };
         }
 
         public async Task<bool> DeleteRoleAsync(string id)
@@ -54,28 +75,32 @@ namespace GenderHealthcare.BLL.Services
             return await _roleRepository.DeleteAsync(id);
         }
 
-        private RoleDTO MapToDTO(Role role)
+        public async Task<RoleDTO> GetRoleByIdAsync(string roleId)
         {
+            var role = await _roleRepository.GetByIdAsync(roleId);
+            if (role == null)
+            {
+                return null;
+            }
             return new RoleDTO
             {
                 Id = role.Id,
                 Name = role.Name,
                 Description = role.Description,
-                Status = role.Status,
-                UpdatedAt = role.UpdatedAt
+                Status = role.Status ?? false
             };
         }
 
-        private Role MapToEntity(RoleDTO roleDto)
+        public async Task<IEnumerable<RoleDTO>> GetRolesByUserIdAsync(string userId)
         {
-            return new Role
+            var roles = await _roleRepository.GetRolesByUserIdAsync(userId);
+            return roles.Select(r => new RoleDTO
             {
-                Id = roleDto.Id,
-                Name = roleDto.Name,
-                Description = roleDto.Description,
-                Status = roleDto.Status,
-                UpdatedAt = roleDto.UpdatedAt
-            };
+                Id = r.Id,
+                Name = r.Name,
+                Description = r.Description,
+                Status = r.Status ?? false
+            });
         }
     }
 }

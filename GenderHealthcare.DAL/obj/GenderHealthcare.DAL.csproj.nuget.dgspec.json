@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj": {}
+    "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj": {}
   },
   "projects": {
-    "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj": {
+    "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj",
+        "projectUniqueName": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj",
         "projectName": "GenderHealthcare.DAL",
-        "projectPath": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\obj\\",
+        "projectPath": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj",
+        "packagesPath": "C:\\Users\\Windows 11\\.nuget\\packages\\",
+        "outputPath": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Windows 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

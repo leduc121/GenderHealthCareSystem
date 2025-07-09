@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AppointmentBookingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BlogDetailView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BlogWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ConsultantView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CycleTrackerView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FeedbackManagementView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OfferManagementView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaymentManagementView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StdDiseaseManagementView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StdDiseaseView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserAppointmentsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserNotificationsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

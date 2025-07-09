@@ -31,3 +31,4 @@ public partial class Appointment
 
     public virtual User User { get; set; } = null!;
 }
+

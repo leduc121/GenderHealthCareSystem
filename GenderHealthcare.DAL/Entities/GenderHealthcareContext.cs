@@ -1,6 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using GenderHealthcare.DAL.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using System;
+using System.Collections.Generic;
 
 namespace GenderHealthcare.DAL.Entities;
 
@@ -39,61 +41,117 @@ public partial class GenderHealthcareContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
+    public virtual DbSet<UserRole> UserRoles { get; set; }
+
+    public virtual DbSet<Blog> Blogs { get; set; }
+
+
+
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=LAPTOP-13VQ2HGC\\SQLEXPRESS;;uid=sa;pwd=12345;database=gender_healthcare_db;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Server=DESKTOP-ONCMOC9\\SQLEXPRESS;uid=sa;pwd=12345;database=gender_healthcare_db;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Appointment>(entity =>
-        {
-            entity.HasKey(e => new { e.UserId, e.ConsultantId, e.AppointmentDate }).HasName("PK__appointm__0D4FC4B4D7D5A477");
 
-            entity.ToTable("appointments");
+        modelBuilder.Entity<UserRole>(entity =>
+        {
+            entity.HasKey(e => new { e.UserId, e.RoleId });
+
+            entity.ToTable("user_roles");
 
             entity.Property(e => e.UserId)
                 .HasMaxLength(36)
                 .IsUnicode(false)
                 .IsFixedLength()
                 .HasColumnName("user_id");
-            entity.Property(e => e.ConsultantId)
+
+            entity.Property(e => e.RoleId)
                 .HasMaxLength(36)
                 .IsUnicode(false)
                 .IsFixedLength()
-                .HasColumnName("consultant_id");
-            entity.Property(e => e.AppointmentDate)
-                .HasColumnType("datetime")
-                .HasColumnName("appointment_date");
-            entity.Property(e => e.AppointmentLocation)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("appointment_location");
-            entity.Property(e => e.AppointmentStatus)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("appointment_status");
-            entity.Property(e => e.EndTime).HasColumnName("end_time");
-            entity.Property(e => e.FixedPrice)
-                .HasColumnType("decimal(10, 2)")
-                .HasColumnName("fixed_price");
-            entity.Property(e => e.StartTime).HasColumnName("start_time");
-            entity.Property(e => e.Status)
-                .HasDefaultValue(true)
-                .HasColumnName("status");
-            entity.Property(e => e.UpdatedAt)
-                .HasColumnType("datetime")
-                .HasColumnName("updated_at");
+                .HasColumnName("role_id");
 
-            entity.HasOne(d => d.Consultant).WithMany(p => p.AppointmentConsultants)
-                .HasForeignKey(d => d.ConsultantId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__appointme__consu__2EDAF651");
+            entity.HasOne(e => e.User)
+                  .WithMany(u => u.UserRoles)
+                  .HasForeignKey(e => e.UserId)
+                  .OnDelete(DeleteBehavior.Cascade)
+                  .HasConstraintName("FK__user_role__user");
 
-            entity.HasOne(d => d.User).WithMany(p => p.AppointmentUsers)
-                .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__appointme__user___2DE6D218");
+            entity.HasOne(e => e.Role)
+                  .WithMany(r => r.UserRoles)
+                  .HasForeignKey(e => e.RoleId)
+                  .OnDelete(DeleteBehavior.Cascade)
+                  .HasConstraintName("FK__user_role__role");
         });
+
+
+        modelBuilder.Entity<Appointment>(entity =>
+        {
+            entity.ToTable("appointments");
+
+            // composite PK: user + consultant + date
+            entity.HasKey(e => new { e.UserId, e.ConsultantId, e.AppointmentDate })
+                  .HasName("PK_appointments");
+
+            entity.Property(e => e.UserId)
+                  .HasColumnName("user_id")
+                  .HasMaxLength(36)
+                  .IsUnicode(false)
+                  .IsFixedLength();
+
+            entity.Property(e => e.ConsultantId)
+                  .HasColumnName("consultant_id")
+                  .HasMaxLength(36)
+                  .IsUnicode(false)
+                  .IsFixedLength();
+
+            entity.Property(e => e.AppointmentDate)
+                  .HasColumnName("appointment_date")
+                  .HasColumnType("datetime");
+
+            entity.Property(e => e.StartTime)
+                  .HasColumnName("start_time");
+
+            entity.Property(e => e.EndTime)
+                  .HasColumnName("end_time");
+
+            entity.Property(e => e.AppointmentLocation)
+                  .HasColumnName("appointment_location")
+                  .HasMaxLength(200)
+                  .IsUnicode(false);
+
+            entity.Property(e => e.AppointmentStatus)
+                  .HasColumnName("appointment_status")
+                  .HasMaxLength(50)
+                  .IsUnicode(false);
+
+            entity.Property(e => e.FixedPrice)
+                  .HasColumnName("fixed_price")
+                  .HasColumnType("decimal(10,2)");
+
+            entity.Property(e => e.Status)
+                  .HasColumnName("status")
+                  .HasDefaultValue(true);
+
+            entity.Property(e => e.UpdatedAt)
+                  .HasColumnName("updated_at")
+                  .HasColumnType("datetime");
+
+            entity.HasOne(d => d.User)
+                  .WithMany(u => u.AppointmentUsers)
+                  .HasForeignKey(d => d.UserId)
+                  .OnDelete(DeleteBehavior.ClientSetNull)
+                  .HasConstraintName("FK_appointments_users");
+
+            entity.HasOne(d => d.Consultant)
+                  .WithMany(c => c.AppointmentConsultants)
+                  .HasForeignKey(d => d.ConsultantId)
+                  .OnDelete(DeleteBehavior.ClientSetNull)
+                  .HasConstraintName("FK_appointments_consultants");
+        });
+
 
         modelBuilder.Entity<ConsultantFeedback>(entity =>
         {
@@ -181,76 +239,143 @@ public partial class GenderHealthcareContext : DbContext
 
         modelBuilder.Entity<ContraceptiveReminder>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__contrace__B9BE370F543D5284");
-
             entity.ToTable("contraceptive_reminders");
 
-            entity.Property(e => e.UserId)
-                .HasMaxLength(36)
-                .IsUnicode(false)
-                .IsFixedLength()
-                .HasColumnName("user_id");
-            entity.Property(e => e.ContraceptiveType)
-                .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("contraceptive_type");
-            entity.Property(e => e.EndDate).HasColumnName("end_date");
-            entity.Property(e => e.Frequency)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("frequency");
-            entity.Property(e => e.ReminderMessage)
-                .HasColumnType("text")
-                .HasColumnName("reminder_message");
-            entity.Property(e => e.ReminderStatus)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("reminder_status");
-            entity.Property(e => e.ReminderTime).HasColumnName("reminder_time");
-            entity.Property(e => e.StartDate).HasColumnName("start_date");
-            entity.Property(e => e.Status)
-                .HasDefaultValue(true)
-                .HasColumnName("status");
-            entity.Property(e => e.UpdatedAt)
-                .HasColumnType("datetime")
-                .HasColumnName("updated_at");
+            // Composite PK: user + start_date + reminder_time
+            entity.HasKey(e => new { e.UserId, e.StartDate, e.ReminderTime })
+                  .HasName("PK_contraceptive_reminders");
 
-            entity.HasOne(d => d.User).WithOne(p => p.ContraceptiveReminder)
-                .HasForeignKey<ContraceptiveReminder>(d => d.UserId)
-                .HasConstraintName("FK__contracep__user___3D2915A8");
+            entity.Property(e => e.UserId)
+                  .HasColumnName("user_id")
+                  .HasMaxLength(36)
+                  .IsUnicode(false)
+                  .IsFixedLength();
+
+            entity.Property(e => e.StartDate)
+                  .HasColumnName("start_date")
+                  .HasColumnType("date");
+
+            entity.Property(e => e.EndDate)
+                  .HasColumnName("end_date")
+                  .HasColumnType("date");
+
+            entity.Property(e => e.ReminderTime)
+                  .HasColumnName("reminder_time")
+                  .HasColumnType("time(7)");
+
+            entity.Property(e => e.ContraceptiveType)
+                  .HasColumnName("contraceptive_type")
+                  .HasMaxLength(100)
+                  .IsUnicode(false);
+
+            entity.Property(e => e.Frequency)
+                  .HasColumnName("frequency")
+                  .HasMaxLength(20)
+                  .IsUnicode(false);
+
+            entity.Property(e => e.ReminderStatus)
+                  .HasColumnName("reminder_status")
+                  .HasMaxLength(20)
+                  .IsUnicode(false);
+
+            entity.Property(e => e.ReminderMessage)
+                  .HasColumnName("reminder_message")
+                  .HasColumnType("text");
+
+            entity.Property(e => e.Status)
+                  .HasColumnName("status")
+                  .HasDefaultValue(true);
+
+            entity.Property(e => e.UpdatedAt)
+                  .HasColumnName("updated_at")
+                  .HasColumnType("datetime");
+
+            // One user → many reminders
+            entity.HasOne(d => d.User)
+                  .WithMany(u => u.ContraceptiveReminders)
+                  .HasForeignKey(d => d.UserId)
+                  .OnDelete(DeleteBehavior.ClientSetNull)
+                  .HasConstraintName("FK_contraceptive_reminders_user");
         });
+
 
         modelBuilder.Entity<MenstrualCycle>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__menstrua__B9BE370F5708FA41");
-
+            // Tên bảng
             entity.ToTable("menstrual_cycles");
 
-            entity.Property(e => e.UserId)
-                .HasMaxLength(36)
-                .IsUnicode(false)
-                .IsFixedLength()
-                .HasColumnName("user_id");
-            entity.Property(e => e.CycleEndDate).HasColumnName("cycle_end_date");
-            entity.Property(e => e.CycleLength).HasColumnName("cycle_length");
-            entity.Property(e => e.CycleStartDate).HasColumnName("cycle_start_date");
-            entity.Property(e => e.FlowIntensity).HasColumnName("flow_intensity");
-            entity.Property(e => e.Notes)
-                .HasColumnType("text")
-                .HasColumnName("notes");
-            entity.Property(e => e.PainLevel).HasColumnName("pain_level");
-            entity.Property(e => e.PeriodLength).HasColumnName("period_length");
-            entity.Property(e => e.Status)
-                .HasDefaultValue(true)
-                .HasColumnName("status");
-            entity.Property(e => e.UpdatedAt)
-                .HasColumnType("datetime")
-                .HasColumnName("updated_at");
+            // Khóa chính
+            entity.HasKey(e => e.Id)
+                  .HasName("PK_menstrual_cycles");
 
-            entity.HasOne(d => d.User).WithOne(p => p.MenstrualCycle)
-                .HasForeignKey<MenstrualCycle>(d => d.UserId)
-                .HasConstraintName("FK__menstrual__user___395884C4");
+            entity.Property(e => e.Id)
+                  .HasColumnName("id")
+                  .HasMaxLength(36)
+                  .IsFixedLength()
+                  .IsUnicode(false)
+                  .IsRequired();
+
+            // FK về người dùng
+            entity.Property(e => e.UserId)
+                  .HasColumnName("user_id")
+                  .HasMaxLength(36)
+                  .IsFixedLength()
+                  .IsUnicode(false)
+                  .IsRequired();
+
+            // Chuyển đổi DateOnly? <-> DateTime?
+            var dateOnlyConverter = new ValueConverter<DateOnly?, DateTime?>(
+                v => v.HasValue ? v.Value.ToDateTime(TimeOnly.MinValue) : (DateTime?)null,
+                v => v.HasValue ? DateOnly.FromDateTime(v.Value) : (DateOnly?)null
+            );
+
+            entity.Property(e => e.CycleStartDate)
+                  .HasColumnName("cycle_start_date")
+                  .HasColumnType("date")
+                  .HasConversion(dateOnlyConverter);
+
+            entity.Property(e => e.CycleEndDate)
+                  .HasColumnName("cycle_end_date")
+                  .HasColumnType("date")
+                  .HasConversion(dateOnlyConverter);
+
+            // Các cột số
+            entity.Property(e => e.CycleLength)
+                  .HasColumnName("cycle_length");
+
+            entity.Property(e => e.PeriodLength)
+                  .HasColumnName("period_length");
+
+            entity.Property(e => e.FlowIntensity)
+                  .HasColumnName("flow_intensity");
+
+            entity.Property(e => e.PainLevel)
+                  .HasColumnName("pain_level");
+
+            // Ghi chú
+            entity.Property(e => e.Notes)
+                  .HasColumnName("notes")
+                  .HasColumnType("text");
+
+            // Trạng thái
+            entity.Property(e => e.Status)
+                  .HasColumnName("status")
+                  .HasColumnType("bit")
+                  .HasDefaultValue(true);
+
+            // Cập nhật thời gian
+            entity.Property(e => e.UpdatedAt)
+                  .HasColumnName("updated_at")
+                  .HasColumnType("datetime");
+
+            // Quan hệ 1-N với User
+            entity.HasOne(d => d.User)
+                  .WithMany(p => p.MenstrualCycles)
+                  .HasForeignKey(d => d.UserId)
+                  .OnDelete(DeleteBehavior.Cascade)
+                  .HasConstraintName("FK_menstrual_cycles_user");
         });
+
 
         modelBuilder.Entity<Message>(entity =>
         {
@@ -612,34 +737,57 @@ public partial class GenderHealthcareContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("username");
 
-            entity.HasMany(d => d.Roles).WithMany(p => p.Users)
-                .UsingEntity<Dictionary<string, object>>(
-                    "UserRole",
-                    r => r.HasOne<Role>().WithMany()
-                        .HasForeignKey("RoleId")
-                        .HasConstraintName("FK__user_role__role___208CD6FA"),
-                    l => l.HasOne<User>().WithMany()
-                        .HasForeignKey("UserId")
-                        .HasConstraintName("FK__user_role__user___1F98B2C1"),
-                    j =>
-                    {
-                        j.HasKey("UserId", "RoleId").HasName("PK__user_rol__6EDEA153CDC7C635");
-                        j.ToTable("user_roles");
-                        j.IndexerProperty<string>("UserId")
-                            .HasMaxLength(36)
-                            .IsUnicode(false)
-                            .IsFixedLength()
-                            .HasColumnName("user_id");
-                        j.IndexerProperty<string>("RoleId")
-                            .HasMaxLength(36)
-                            .IsUnicode(false)
-                            .IsFixedLength()
-                            .HasColumnName("role_id");
-                    });
+
+        });
+
+        modelBuilder.Entity<Blog>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK_blogs");
+
+            entity.ToTable("blogs");
+
+            entity.Property(e => e.Id)
+                .HasMaxLength(36)
+                .IsUnicode(false)
+                .IsFixedLength()
+                .HasColumnName("id");
+
+            entity.Property(e => e.AuthorId)
+                .HasMaxLength(36)
+                .IsUnicode(false)
+                .IsFixedLength()
+                .HasColumnName("author_id");
+
+            entity.Property(e => e.Title)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("title");
+
+            entity.Property(e => e.Content)
+                .HasColumnType("text")
+                .HasColumnName("content");
+
+            entity.Property(e => e.PublishedDate)
+                .HasColumnType("datetime")
+                .HasColumnName("published_date");
+
+            entity.Property(e => e.Status)
+                .HasDefaultValue(true)
+                .HasColumnName("status");
+
+            entity.Property(e => e.UpdatedAt)
+                .HasColumnType("datetime")
+                .HasColumnName("updated_at");
+
+            entity.HasOne(d => d.Author)
+                .WithMany(p => p.Blogs)
+                .HasForeignKey(d => d.AuthorId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK_blogs_users");
         });
 
         OnModelCreatingPartial(modelBuilder);
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
-}
+}   

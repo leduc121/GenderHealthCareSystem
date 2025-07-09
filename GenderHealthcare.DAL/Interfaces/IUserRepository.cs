@@ -8,5 +8,7 @@ namespace GenderHealthcare.DAL.Interfaces
         Task<User> GetByUsernameAsync(string username);
         Task<User> GetByEmailAsync(string email);
         Task<bool> ValidateLoginAsync(string username, string password);
+
+        Task<User?> GetByIdAsync(string id);
     }
 }

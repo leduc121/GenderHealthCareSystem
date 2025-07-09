@@ -1,4 +1,4 @@
-﻿    using GenderHealthcare.DAL.Entities;
+﻿using GenderHealthcare.DAL.Entities;
 using GenderHealthcare.DAL.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;

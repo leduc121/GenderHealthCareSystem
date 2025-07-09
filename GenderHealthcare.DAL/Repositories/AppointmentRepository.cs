@@ -1,65 +1,82 @@
 ﻿using GenderHealthcare.DAL.Entities;
 using GenderHealthcare.DAL.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace GenderHealthcare.DAL.Repositories
 {
-    public class AppointmentRepository : Repository<Appointment>, IAppointmentRepository
+    public class AppointmentRepository : IAppointmentRepository
     {
-        public AppointmentRepository(GenderHealthcareContext context) : base(context) { }
+        private readonly IDbContextFactory<GenderHealthcareContext> _factory;
 
-        public override async Task<Appointment> GetByIdAsync(string id)
+        public AppointmentRepository(IDbContextFactory<GenderHealthcareContext> factory)
         {
-            // Logic mặc định, có thể không sử dụng cho composite key
-            return await _dbSet.FindAsync(id);
+            _factory = factory;
         }
 
-        public override async Task<bool> DeleteAsync(string id)
+        public async Task<List<Appointment>> GetAllAsync()
         {
-            var appointment = await GetByIdAsync(id);
-            if (appointment == null) return false;
-            _dbSet.Remove(appointment);
-            await _context.SaveChangesAsync();
-            return true;
+            await using var ctx = _factory.CreateDbContext();
+            return await ctx.Appointments.ToListAsync();
         }
 
-        public async Task<IEnumerable<Appointment>> GetByUserIdAsync(string userId)
+        public async Task<Appointment?> GetByCompositeKeyAsync(string userId, string consultantId, DateTime date)
         {
-            return await _dbSet.Where(a => a.UserId == userId)
-                              .Include(a => a.User)
-                              .ToListAsync();
+            await using var ctx = _factory.CreateDbContext();
+            return await ctx.Appointments.FindAsync(userId, consultantId, date);
         }
 
-        public async Task<IEnumerable<Appointment>> GetByConsultantIdAsync(string consultantId)
+        public async Task<List<Appointment>> GetByUserIdAsync(string userId)
         {
-            return await _dbSet.Where(a => a.ConsultantId == consultantId)
-                              .Include(a => a.User)
-                              .ToListAsync();
+            await using var ctx = _factory.CreateDbContext();
+            return await ctx.Appointments
+                            .Where(a => a.UserId == userId)
+                            .ToListAsync();
         }
 
-        public async Task<IEnumerable<Appointment>> GetByDateRangeAsync(DateTime startDate, DateTime endDate)
+        public async Task<List<Appointment>> GetByConsultantIdAsync(string consultantId)
         {
-            return await _dbSet.Where(a => a.AppointmentDate >= startDate && a.AppointmentDate <= endDate)
-                              .Include(a => a.User)
-                              .ToListAsync();
+            await using var ctx = _factory.CreateDbContext();
+            return await ctx.Appointments
+                            .Where(a => a.ConsultantId == consultantId)
+                            .ToListAsync();
         }
 
-        public async Task<Appointment> GetByCompositeKeyAsync(string userId, string consultantId, DateTime appointmentDate)
+        public async Task<List<Appointment>> GetByDateRangeAsync(DateTime start, DateTime end)
         {
-            return await _dbSet
-                .FirstOrDefaultAsync(a => a.UserId == userId && a.ConsultantId == consultantId && a.AppointmentDate == appointmentDate);
+            await using var ctx = _factory.CreateDbContext();
+            return await ctx.Appointments
+                            .Where(a => a.AppointmentDate >= start && a.AppointmentDate <= end)
+                            .ToListAsync();
         }
 
-        public async Task<bool> DeleteByCompositeKeyAsync(string userId, string consultantId, DateTime appointmentDate)
+        public async Task<Appointment> AddAsync(Appointment appt)
         {
-            var appointment = await GetByCompositeKeyAsync(userId, consultantId, appointmentDate);
-            if (appointment == null) return false;
+            await using var ctx = _factory.CreateDbContext();
+            var entry = await ctx.Appointments.AddAsync(appt);
+            await ctx.SaveChangesAsync();
+            return entry.Entity;
+        }
 
-            _dbSet.Remove(appointment);
-            await _context.SaveChangesAsync();
+        public async Task<Appointment> UpdateAsync(Appointment appt)
+        {
+            await using var ctx = _factory.CreateDbContext();
+            var entry = ctx.Appointments.Update(appt);
+            await ctx.SaveChangesAsync();
+            return entry.Entity;
+        }
+
+        public async Task<bool> DeleteByCompositeKeyAsync(string userId, string consultantId, DateTime date)
+        {
+            await using var ctx = _factory.CreateDbContext();
+            var appt = await ctx.Appointments.FindAsync(userId, consultantId, date);
+            if (appt == null) return false;
+            ctx.Appointments.Remove(appt);
+            await ctx.SaveChangesAsync();
             return true;
         }
     }

@@ -39,9 +39,10 @@ public partial class User
 
     public virtual ConsultantProfile? ConsultantProfile { get; set; }
 
-    public virtual ContraceptiveReminder? ContraceptiveReminder { get; set; }
+    //public virtual ContraceptiveReminder? ContraceptiveReminder { get; set; }
 
-    public virtual MenstrualCycle? MenstrualCycle { get; set; }
+    public virtual ICollection<MenstrualCycle> MenstrualCycles { get; set; }
+        = new List<MenstrualCycle>();
 
     public virtual ICollection<Message> MessageConsultants { get; set; } = new List<Message>();
 
@@ -51,5 +52,12 @@ public partial class User
 
     public virtual ICollection<StdTestAppointment> StdTestAppointments { get; set; } = new List<StdTestAppointment>();
 
-    public virtual ICollection<Role> Roles { get; set; } = new List<Role>();
+
+    public ICollection<UserRole> UserRoles { get; set; }
+
+    public virtual ICollection<Blog> Blogs { get; set; } = new List<Blog>(); // Thêm thuộc tính Blogs
+
+    public virtual ICollection<ContraceptiveReminder> ContraceptiveReminders { get; set; }
+        = new List<ContraceptiveReminder>();
+
 }

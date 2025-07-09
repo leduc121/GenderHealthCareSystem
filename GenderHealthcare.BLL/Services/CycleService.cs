@@ -1,52 +1,67 @@
-﻿using GenderHealthcare.BLL.Interfaces;
-using GenderHealthcare.DAL.Entities;
-using GenderHealthcare.DAL.Repositories;
+﻿// GenderHealthcare.BLL.Services/CycleService.cs
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using GenderHealthcare.BLL.DTOs;
+using GenderHealthcare.BLL.Interfaces;
+using GenderHealthcare.DAL.Entities;
+using GenderHealthcare.DAL.Repositories.Interfaces;
 
 namespace GenderHealthcare.BLL.Services
 {
-    // Đảm bảo lớp này implement ICycleService
     public class CycleService : ICycleService
     {
-        private readonly MenstrualCycleRepository _cycleRepository;
+        private readonly IMenstrualCycleRepository _repo;
+        private readonly ICurrentUserService _userContext;
 
-        // Constructor này nhận Repository từ DI container
-        public CycleService(MenstrualCycleRepository cycleRepository)
+        public CycleService(
+            IMenstrualCycleRepository repo,
+            ICurrentUserService userContext)
         {
-            _cycleRepository = cycleRepository;
+            _repo = repo ?? throw new ArgumentNullException(nameof(repo));
+            _userContext = userContext ?? throw new ArgumentNullException(nameof(userContext));
         }
 
-        public async Task<List<MenstrualCycle>> GetMyCyclesAsync()
+        public async Task<IEnumerable<MenstrualCycleDTO>> GetMyCyclesAsync()
         {
-            var userId = AuthService.CurrentUserId;
-            if (string.IsNullOrEmpty(userId))
+            var userId = _userContext.UserId
+                ?? throw new InvalidOperationException("Chưa xác định UserId.");
+
+            var cycles = await _repo.GetByUserIdAsync(userId);
+            return cycles.Select(c => new MenstrualCycleDTO
             {
-                return new List<MenstrualCycle>();
-            }
-            return await _cycleRepository.GetByUserIdAsync(userId);
+                Id = c.Id,
+                UserId = c.UserId,
+                CycleStartDate = c.CycleStartDate,
+                CycleEndDate = c.CycleEndDate,
+                CycleLength = c.CycleLength,
+                PeriodLength = c.PeriodLength,
+                FlowIntensity = c.FlowIntensity,
+                PainLevel = c.PainLevel,
+                Notes = c.Notes
+            });
         }
 
-        public async Task RecordCycleAsync(DateOnly cycleStartDate, DateOnly? cycleEndDate, string notes)
+        public async Task RecordCycleAsync(DateOnly? cycleStartDate,
+                                           DateOnly? cycleEndDate,
+                                           string notes)
         {
-            var userId = AuthService.CurrentUserId;
-            if (string.IsNullOrEmpty(userId))
-            {
-                throw new Exception("Yêu cầu đăng nhập để thực hiện chức năng này.");
-            }
+            var userId = _userContext.UserId
+                ?? throw new InvalidOperationException("Chưa xác định UserId.");
 
             var cycle = new MenstrualCycle
             {
+                Id = Guid.NewGuid().ToString(),
                 UserId = userId,
                 CycleStartDate = cycleStartDate,
                 CycleEndDate = cycleEndDate,
                 Notes = notes,
-                UpdatedAt = DateTime.Now,
-                Status = true
+                UpdatedAt = DateTime.Now
             };
 
-            await _cycleRepository.AddAsync(cycle);
+            // đây là chỗ bạn dùng AddOrUpdate
+            await _repo.AddOrUpdateAsync(cycle);
         }
     }
 }

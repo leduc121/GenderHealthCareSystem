@@ -12,4 +12,45 @@ D:\ASP\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\refint\Gende
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.pdb
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.genruntimeconfig.cache
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\ref\GenderHealthcare.DAL.dll
-D:\ASP\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.sourcelink.json
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\bin\Debug\net8.0\GenderHealthcare.DAL.deps.json
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\bin\Debug\net8.0\GenderHealthcare.DAL.runtimeconfig.json
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\bin\Debug\net8.0\GenderHealthcare.DAL.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\bin\Debug\net8.0\GenderHealthcare.DAL.pdb
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.csproj.AssemblyReference.cache
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.AssemblyInfoInputs.cache
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.AssemblyInfo.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.csproj.CoreCompileInputs.cache
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\refint\GenderHealthcare.DAL.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.pdb
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.genruntimeconfig.cache
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\ref\GenderHealthcare.DAL.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\bin\Debug\net8.0\GenderHealthcare.DAL.deps.json
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\bin\Debug\net8.0\GenderHealthcare.DAL.runtimeconfig.json
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\bin\Debug\net8.0\GenderHealthcare.DAL.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\bin\Debug\net8.0\GenderHealthcare.DAL.pdb
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.csproj.AssemblyReference.cache
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.AssemblyInfoInputs.cache
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.AssemblyInfo.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.csproj.CoreCompileInputs.cache
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\refint\GenderHealthcare.DAL.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.pdb
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.genruntimeconfig.cache
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\ref\GenderHealthcare.DAL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\bin\Debug\net8.0\GenderHealthcare.DAL.deps.json
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\bin\Debug\net8.0\GenderHealthcare.DAL.runtimeconfig.json
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\bin\Debug\net8.0\GenderHealthcare.DAL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\bin\Debug\net8.0\GenderHealthcare.DAL.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\refint\GenderHealthcare.DAL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\GenderHealthcare.DAL.genruntimeconfig.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.DAL\obj\Debug\net8.0\ref\GenderHealthcare.DAL.dll

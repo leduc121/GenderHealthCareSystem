@@ -15,20 +15,29 @@ namespace GenderHealthcare.UI.Views
         private readonly IRoleService _roleService;
         private readonly IAppointmentService _appointmentService;
         private readonly IConsultantProfileService _consultantProfileService;
+        private readonly ICurrentUserService _currentUserService;
         private readonly IServiceProvider _serviceProvider;
 
         private ObservableCollection<UserDTO> _users = new ObservableCollection<UserDTO>();
         private ObservableCollection<RoleDTO> _roles = new ObservableCollection<RoleDTO>();
         private ObservableCollection<AppointmentDTO> _appointments = new ObservableCollection<AppointmentDTO>();
         private ObservableCollection<ConsultantProfileDTO> _consultantProfiles = new ObservableCollection<ConsultantProfileDTO>();
+        private bool _isAdmin;
 
-        public MainWindow(IUserService userService, IRoleService roleService, IAppointmentService appointmentService, IConsultantProfileService consultantProfileService, IServiceProvider serviceProvider)
+        public MainWindow(
+            IUserService userService,
+            IRoleService roleService,
+            IAppointmentService appointmentService,
+            IConsultantProfileService consultantProfileService,
+            ICurrentUserService currentUserService,
+            IServiceProvider serviceProvider)
         {
             InitializeComponent();
             _userService = userService ?? throw new ArgumentNullException(nameof(userService));
             _roleService = roleService ?? throw new ArgumentNullException(nameof(roleService));
             _appointmentService = appointmentService ?? throw new ArgumentNullException(nameof(appointmentService));
             _consultantProfileService = consultantProfileService ?? throw new ArgumentNullException(nameof(consultantProfileService));
+            _currentUserService = currentUserService ?? throw new ArgumentNullException(nameof(currentUserService));
             _serviceProvider = serviceProvider ?? throw new ArgumentNullException(nameof(serviceProvider));
             Loaded += MainWindow_Loaded;
 
@@ -36,25 +45,46 @@ namespace GenderHealthcare.UI.Views
             RoleGrid.ItemsSource = _roles;
             AppointmentGrid.ItemsSource = _appointments;
             ConsultantProfileGrid.ItemsSource = _consultantProfiles;
+
+            DataContext = this;
         }
+
+        public bool IsAdmin => _isAdmin;
 
         private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
             await LoadData();
         }
 
+        private async void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Không cần xử lý riêng cho tab "Quản lý Blog" vì BlogWindow tự quản lý
+        }
+
         private async Task LoadData()
         {
             try
             {
-                await LoadUsers();
-                await LoadRoles();
-                await LoadAppointments();
-                await LoadConsultantProfiles();
+                _isAdmin = await CheckIsAdminAsync();
+                await Task.WhenAll(LoadUsers(), LoadRoles(), LoadAppointments(), LoadConsultantProfiles());
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi tải dữ liệu: {ex.Message}");
+                MessageBox.Show($"Lỗi tải dữ liệu: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private async Task<bool> CheckIsAdminAsync()
+        {
+            try
+            {
+                var roles = await _currentUserService.GetUserRolesAsync();
+                return roles?.Any(r => r.Name == "Admin") ?? false;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi kiểm tra quyền Admin: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                return false;
             }
         }
 
@@ -68,7 +98,7 @@ namespace GenderHealthcare.UI.Views
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi tải người dùng: {ex.Message}");
+                MessageBox.Show($"Lỗi tải người dùng: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -82,7 +112,7 @@ namespace GenderHealthcare.UI.Views
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi tải vai trò: {ex.Message}");
+                MessageBox.Show($"Lỗi tải vai trò: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -96,7 +126,7 @@ namespace GenderHealthcare.UI.Views
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi tải lịch hẹn: {ex.Message}");
+                MessageBox.Show($"Lỗi tải lịch hẹn: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -110,7 +140,7 @@ namespace GenderHealthcare.UI.Views
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi tải hồ sơ cố vấn: {ex.Message}");
+                MessageBox.Show($"Lỗi tải hồ sơ cố vấn: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -124,7 +154,7 @@ namespace GenderHealthcare.UI.Views
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi thêm người dùng: {ex.Message}");
+                MessageBox.Show($"Lỗi thêm người dùng: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -133,7 +163,7 @@ namespace GenderHealthcare.UI.Views
             var selectedUser = UserGrid.SelectedItem as UserDTO;
             if (selectedUser == null)
             {
-                MessageBox.Show("Vui lòng chọn một người dùng để cập nhật!");
+                MessageBox.Show("Vui lòng chọn một người dùng để cập nhật!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
@@ -143,37 +173,32 @@ namespace GenderHealthcare.UI.Views
                 if (updatedUser != null)
                 {
                     var index = _users.IndexOf(selectedUser);
-                    if (index >= 0)
-                    {
-                        _users[index] = updatedUser;
-                        await LoadUsers();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Không tìm thấy người dùng để cập nhật!");
-                    }
+                    if (index >= 0) _users[index] = updatedUser;
+                    await LoadUsers();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi cập nhật người dùng: {ex.Message}");
+                MessageBox.Show($"Lỗi cập nhật người dùng: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         private async void BtnDeleteUser_Click(object sender, RoutedEventArgs e)
         {
+            var selectedUser = UserGrid.SelectedItem as UserDTO;
+            if (selectedUser == null)
+            {
+                MessageBox.Show("Vui lòng chọn một người dùng để xóa!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             try
             {
-                var selectedUser = UserGrid.SelectedItem as UserDTO;
-                if (selectedUser != null)
-                {
-                    var result = await _userService.DeleteUserAsync(selectedUser.Id);
-                    if (result) await LoadUsers();
-                }
+                if (await _userService.DeleteUserAsync(selectedUser.Id)) await LoadUsers();
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi xóa người dùng: {ex.Message}");
+                MessageBox.Show($"Lỗi xóa người dùng: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -187,7 +212,7 @@ namespace GenderHealthcare.UI.Views
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi thêm vai trò: {ex.Message}");
+                MessageBox.Show($"Lỗi thêm vai trò: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -196,7 +221,7 @@ namespace GenderHealthcare.UI.Views
             var selectedRole = RoleGrid.SelectedItem as RoleDTO;
             if (selectedRole == null)
             {
-                MessageBox.Show("Vui lòng chọn một vai trò để cập nhật!");
+                MessageBox.Show("Vui lòng chọn một vai trò để cập nhật!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
@@ -206,37 +231,32 @@ namespace GenderHealthcare.UI.Views
                 if (updatedRole != null)
                 {
                     var index = _roles.IndexOf(selectedRole);
-                    if (index >= 0)
-                    {
-                        _roles[index] = updatedRole;
-                        await LoadRoles();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Không tìm thấy vai trò để cập nhật!");
-                    }
+                    if (index >= 0) _roles[index] = updatedRole;
+                    await LoadRoles();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi cập nhật vai trò: {ex.Message}");
+                MessageBox.Show($"Lỗi cập nhật vai trò: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         private async void BtnDeleteRole_Click(object sender, RoutedEventArgs e)
         {
+            var selectedRole = RoleGrid.SelectedItem as RoleDTO;
+            if (selectedRole == null)
+            {
+                MessageBox.Show("Vui lòng chọn một vai trò để xóa!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             try
             {
-                var selectedRole = RoleGrid.SelectedItem as RoleDTO;
-                if (selectedRole != null)
-                {
-                    var result = await _roleService.DeleteRoleAsync(selectedRole.Id);
-                    if (result) await LoadRoles();
-                }
+                if (await _roleService.DeleteRoleAsync(selectedRole.Id)) await LoadRoles();
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi xóa vai trò: {ex.Message}");
+                MessageBox.Show($"Lỗi xóa vai trò: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -255,7 +275,7 @@ namespace GenderHealthcare.UI.Views
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi thêm lịch hẹn: {ex.Message}");
+                MessageBox.Show($"Lỗi thêm lịch hẹn: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -264,7 +284,7 @@ namespace GenderHealthcare.UI.Views
             var selectedAppointment = AppointmentGrid.SelectedItem as AppointmentDTO;
             if (selectedAppointment == null)
             {
-                MessageBox.Show("Vui lòng chọn một lịch hẹn để cập nhật!");
+                MessageBox.Show("Vui lòng chọn một lịch hẹn để cập nhật!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
@@ -274,37 +294,32 @@ namespace GenderHealthcare.UI.Views
                 if (updatedAppointment != null)
                 {
                     var index = _appointments.IndexOf(selectedAppointment);
-                    if (index >= 0)
-                    {
-                        _appointments[index] = updatedAppointment;
-                        await LoadAppointments();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Không tìm thấy lịch hẹn để cập nhật!");
-                    }
+                    if (index >= 0) _appointments[index] = updatedAppointment;
+                    await LoadAppointments();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi cập nhật lịch hẹn: {ex.Message}");
+                MessageBox.Show($"Lỗi cập nhật lịch hẹn: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         private async void BtnDeleteAppointment_Click(object sender, RoutedEventArgs e)
         {
+            var selectedAppointment = AppointmentGrid.SelectedItem as AppointmentDTO;
+            if (selectedAppointment == null)
+            {
+                MessageBox.Show("Vui lòng chọn một lịch hẹn để xóa!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             try
             {
-                var selectedAppointment = AppointmentGrid.SelectedItem as AppointmentDTO;
-                if (selectedAppointment != null)
-                {
-                    var result = await _appointmentService.DeleteAppointmentAsync(selectedAppointment.UserId, selectedAppointment.ConsultantId, selectedAppointment.AppointmentDate);
-                    if (result) await LoadAppointments();
-                }
+                if (await _appointmentService.DeleteAppointmentAsync(selectedAppointment.UserId, selectedAppointment.ConsultantId, selectedAppointment.AppointmentDate)) await LoadAppointments();
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi xóa lịch hẹn: {ex.Message}");
+                MessageBox.Show($"Lỗi xóa lịch hẹn: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -318,7 +333,7 @@ namespace GenderHealthcare.UI.Views
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi thêm hồ sơ cố vấn: {ex.Message}");
+                MessageBox.Show($"Lỗi thêm hồ sơ cố vấn: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -327,7 +342,7 @@ namespace GenderHealthcare.UI.Views
             var selectedProfile = ConsultantProfileGrid.SelectedItem as ConsultantProfileDTO;
             if (selectedProfile == null)
             {
-                MessageBox.Show("Vui lòng chọn một hồ sơ cố vấn để cập nhật!");
+                MessageBox.Show("Vui lòng chọn một hồ sơ cố vấn để cập nhật!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
@@ -337,45 +352,47 @@ namespace GenderHealthcare.UI.Views
                 if (updatedProfile != null)
                 {
                     var index = _consultantProfiles.IndexOf(selectedProfile);
-                    if (index >= 0)
-                    {
-                        _consultantProfiles[index] = updatedProfile;
-                        await LoadConsultantProfiles();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Không tìm thấy hồ sơ cố vấn để cập nhật!");
-                    }
+                    if (index >= 0) _consultantProfiles[index] = updatedProfile;
+                    await LoadConsultantProfiles();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi cập nhật hồ sơ cố vấn: {ex.Message}");
+                MessageBox.Show($"Lỗi cập nhật hồ sơ cố vấn: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         private async void BtnDeleteConsultantProfile_Click(object sender, RoutedEventArgs e)
         {
+            var selectedProfile = ConsultantProfileGrid.SelectedItem as ConsultantProfileDTO;
+            if (selectedProfile == null)
+            {
+                MessageBox.Show("Vui lòng chọn một hồ sơ cố vấn để xóa!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             try
             {
-                var selectedProfile = ConsultantProfileGrid.SelectedItem as ConsultantProfileDTO;
-                if (selectedProfile != null)
-                {
-                    var result = await _consultantProfileService.DeleteConsultantProfileAsync(selectedProfile.ConsultantId);
-                    if (result) await LoadConsultantProfiles();
-                }
+                if (await _consultantProfileService.DeleteConsultantProfileAsync(selectedProfile.ConsultantId)) await LoadConsultantProfiles();
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi xóa hồ sơ cố vấn: {ex.Message}");
+                MessageBox.Show($"Lỗi xóa hồ sơ cố vấn: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         private void btnLogout_Click(object sender, RoutedEventArgs e)
         {
-            var loginWindow = _serviceProvider.GetRequiredService<LoginWindow>();
-            loginWindow.Show();
-            this.Close();
+            try
+            {
+                var loginWindow = _serviceProvider.GetRequiredService<LoginWindow>();
+                loginWindow.Show();
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi đăng xuất: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

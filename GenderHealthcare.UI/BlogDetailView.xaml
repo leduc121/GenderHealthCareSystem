@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="GenderHealthcare.UI.Views.BlogDetailView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:converters="clr-namespace:GenderHealthcare.UI.Converters"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="600">
+    <UserControl.Resources>
+        <converters:BooleanToStringConverter x:Key="BooleanToStringConverter"/>
+    </UserControl.Resources>
+    <StackPanel Margin="10">
+        <TextBlock Text="Chi tiết Blog" FontSize="18" FontWeight="Bold" Margin="0,0,0,10"/>
+        <GroupBox Header="Thông tin Blog" Padding="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="ID:" VerticalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Id}" Margin="5" FontStyle="Italic"/>
+
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Tiêu đề:" VerticalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Title}" Margin="5" TextWrapping="Wrap"/>
+
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Nội dung:" VerticalAlignment="Top" Margin="5"/>
+                <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Content}" Margin="5" TextWrapping="Wrap" MinHeight="100"/>
+
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Ngày đăng:" VerticalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding PublishedDate, StringFormat=dd/MM/yyyy}" Margin="5"/>
+
+                <TextBlock Grid.Row="4" Grid.Column="0" Text="Trạng thái:" VerticalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding Status, Converter={StaticResource BooleanToStringConverter}, ConverterParameter='Kích hoạt|Không kích hoạt'}" Margin="5"/>
+            </Grid>
+        </GroupBox>
+    </StackPanel>
+</UserControl>

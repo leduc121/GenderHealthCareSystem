@@ -2,10 +2,15 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:GenderHealthcare.UI.Views"
+        xmlns:converters="clr-namespace:GenderHealthcare.UI.Converters"
         Title="Gender Healthcare Management System" 
         MinHeight="800" MinWidth="1200"
         WindowStartupLocation="CenterScreen"
         WindowState="Maximized">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <converters:BooleanToStringConverter x:Key="BooleanToStringConverter"/>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
@@ -20,7 +25,7 @@
                 </StackPanel>
             </Grid>
         </Border>
-        <TabControl Grid.Row="1" Margin="10">
+        <TabControl Grid.Row="1" Margin="10" SelectionChanged="TabControl_SelectionChanged">
             <TabItem Header="Quản lý người dùng">
                 <Grid>
                     <Grid.RowDefinitions>
@@ -121,12 +126,18 @@
             <TabItem Header="Quản lý phản hồi">
                 <local:FeedbackManagementView/>
             </TabItem>
-
             <TabItem Header="Theo dõi chu kỳ">
-                <local:CycleTrackerView />
+                <local:CycleTrackerView/>
             </TabItem>
-
-
+            <TabItem Header="Quản lý Blog">
+                <local:BlogWindow/>
+            </TabItem>
+            <TabItem Header="Quản lý dịch vụ xét nghiệm STD">
+                <local:StdDiseaseManagementView/>
+            </TabItem>
+            <TabItem Header="Quản lý offer">
+                <local:OfferManagementView/>
+            </TabItem>
         </TabControl>
         <Border Grid.Row="2" Background="#FF4A90E2">
             <TextBlock Text="© 2025 Gender Healthcare System. All rights reserved." FontFamily="Arial" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="10"/>

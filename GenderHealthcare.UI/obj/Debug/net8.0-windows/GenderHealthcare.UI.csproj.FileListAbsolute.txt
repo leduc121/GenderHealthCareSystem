@@ -90,7 +90,6 @@ D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Micro
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
-D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.sourcelink.json
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\PaymentManagementView.baml
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\PaymentManagementView.g.cs
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
@@ -99,3 +98,361 @@ D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\Feedb
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI_MarkupCompile.lref
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\CycleTrackerView.baml
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\CycleTrackerView.g.cs
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserView.g.cs
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserView.baml
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\AppointmentBookingView.baml
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserAppointmentsView.baml
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\AppointmentBookingView.g.cs
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserAppointmentsView.g.cs
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserNotificationsView.baml
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserNotificationsView.g.cs
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseView.baml
+D:\ASP\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseView.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.exe
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.deps.json
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.runtimeconfig.json
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.pdb
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Hosting.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Debug.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.BLL.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.DAL.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.BLL.pdb
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.DAL.pdb
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.csproj.AssemblyReference.cache
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\AppointmentBookingView.baml
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\CycleTrackerView.baml
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\FeedbackManagementView.baml
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\LoginWindow.baml
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\PaymentManagementView.baml
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseView.baml
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserAppointmentsView.baml
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserNotificationsView.baml
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\AppointmentBookingView.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\CycleTrackerView.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\FeedbackManagementView.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\LoginWindow.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\PaymentManagementView.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseView.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserAppointmentsView.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserNotificationsView.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserView.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\App.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI_MarkupCompile.cache
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI_MarkupCompile.lref
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\MainWindow.baml
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserView.baml
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.g.resources
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.AssemblyInfoInputs.cache
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.AssemblyInfo.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.csproj.CoreCompileInputs.cache
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHe.48B724C7.Up2Date
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\refint\GenderHealthcare.UI.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.pdb
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.genruntimeconfig.cache
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\ref\GenderHealthcare.UI.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.csproj.AssemblyReference.cache
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\AppointmentBookingView.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\BlogWindow.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\CycleTrackerView.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\FeedbackManagementView.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\LoginWindow.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\PaymentManagementView.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseView.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserAppointmentsView.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserNotificationsView.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\AppointmentBookingView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\BlogWindow.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\CycleTrackerView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\FeedbackManagementView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\LoginWindow.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\PaymentManagementView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserAppointmentsView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserNotificationsView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\App.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI_MarkupCompile.cache
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI_MarkupCompile.lref
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\refint\GenderHealthcare.UI.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.pdb
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.exe
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.deps.json
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.runtimeconfig.json
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.pdb
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Azure.Core.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Azure.Identity.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Hosting.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Debug.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.ClientModel.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Memory.Data.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Text.Json.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.BLL.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.DAL.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.BLL.pdb
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.DAL.pdb
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\MainWindow.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserView.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.g.resources
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.AssemblyInfoInputs.cache
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.AssemblyInfo.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.csproj.CoreCompileInputs.cache
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHe.48B724C7.Up2Date
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.genruntimeconfig.cache
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\ref\GenderHealthcare.UI.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.exe
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.deps.json
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.runtimeconfig.json
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.UI.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Hosting.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.BLL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.DAL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.BLL.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\bin\Debug\net8.0-windows\GenderHealthcare.DAL.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\AppointmentBookingView.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\BlogWindow.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\CycleTrackerView.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\FeedbackManagementView.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\LoginWindow.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\PaymentManagementView.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseView.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserAppointmentsView.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserNotificationsView.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\AppointmentBookingView.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\BlogWindow.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\CycleTrackerView.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\FeedbackManagementView.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\LoginWindow.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\PaymentManagementView.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseView.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserAppointmentsView.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserNotificationsView.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserView.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI_MarkupCompile.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI_MarkupCompile.lref
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\UserView.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.g.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHe.48B724C7.Up2Date
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\refint\GenderHealthcare.UI.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\GenderHealthcare.UI.genruntimeconfig.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\ref\GenderHealthcare.UI.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseManagementView.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseManagementView.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\OfferManagementView.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\OfferManagementView.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\ConsultantView.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\ConsultantView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\ConsultantView.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\OfferManagementView.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseManagementView.baml
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\ConsultantView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\OfferManagementView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseManagementView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\BlogDetailView.g.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\BlogDetailView.baml

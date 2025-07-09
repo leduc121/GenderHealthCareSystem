@@ -52,6 +52,7 @@ namespace GenderHealthcare.BLL.Services
         {
             return new ConsultantProfileDTO
             {
+               
                 ConsultantId = profile.ConsultantId,
                 Specialization = profile.Specialization,
                 Qualification = profile.Qualification,

@@ -3959,23 +3959,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
+    "C:\\Users\\Windows 11\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\GenderHealthcare.UI.csproj",
+      "projectUniqueName": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\GenderHealthcare.UI.csproj",
       "projectName": "GenderHealthcare.UI",
-      "projectPath": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\GenderHealthcare.UI.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.UI\\obj\\",
+      "projectPath": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\GenderHealthcare.UI.csproj",
+      "packagesPath": "C:\\Users\\Windows 11\\.nuget\\packages\\",
+      "outputPath": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Windows 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3990,11 +3990,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj": {
-              "projectPath": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj"
+            "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj": {
+              "projectPath": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\GenderHealthcare.BLL.csproj"
             },
-            "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj": {
-              "projectPath": "D:\\ASP\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj"
+            "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj": {
+              "projectPath": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\GenderHealthcare.DAL.csproj"
             }
           }
         }
@@ -4009,7 +4009,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -4033,7 +4033,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

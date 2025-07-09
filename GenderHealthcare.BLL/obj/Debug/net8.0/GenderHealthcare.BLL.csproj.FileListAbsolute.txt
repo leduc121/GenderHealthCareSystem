@@ -13,4 +13,48 @@ D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealth
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\refint\GenderHealthcare.BLL.dll
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.pdb
 D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\ref\GenderHealthcare.BLL.dll
-D:\ASP\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.sourcelink.json
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.BLL.deps.json
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.BLL.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.BLL.pdb
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.DAL.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.DAL.pdb
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.csproj.AssemblyReference.cache
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.AssemblyInfoInputs.cache
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.AssemblyInfo.cs
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.csproj.CoreCompileInputs.cache
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHe.300BC247.Up2Date
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\refint\GenderHealthcare.BLL.dll
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.pdb
+D:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\ref\GenderHealthcare.BLL.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.csproj.AssemblyReference.cache
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.AssemblyInfoInputs.cache
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.AssemblyInfo.cs
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.csproj.CoreCompileInputs.cache
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\refint\GenderHealthcare.BLL.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.pdb
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.BLL.deps.json
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.BLL.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.BLL.pdb
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.DAL.dll
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.DAL.pdb
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHe.300BC247.Up2Date
+E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\ref\GenderHealthcare.BLL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.BLL.deps.json
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.BLL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.BLL.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.DAL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\bin\Debug\net8.0\GenderHealthcare.DAL.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHe.300BC247.Up2Date
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\refint\GenderHealthcare.BLL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\GenderHealthcare.BLL.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\GenderHealthcareSystem\GenderHealthcare.BLL\obj\Debug\net8.0\ref\GenderHealthcare.BLL.dll

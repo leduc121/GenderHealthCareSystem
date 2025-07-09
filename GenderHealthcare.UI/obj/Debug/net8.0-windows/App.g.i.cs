@@ -45,7 +45,7 @@ namespace GenderHealthcare.UI {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.4.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.5.0")]
         public static void Main() {
             GenderHealthcare.UI.App app = new GenderHealthcare.UI.App();
             app.Run();

@@ -48,7 +48,19 @@ namespace GenderHealthcare.BLL.Services
         public async Task<bool> DeleteFeedbackAsync(string consultantId, string userId, DateTime feedbackDate)
         {
             var key = $"{consultantId},{userId},{feedbackDate:yyyy-MM-dd HH:mm:ss}";
-            return await _feedbackRepository.DeleteAsync(key);
+            bool? deleted = await _feedbackRepository.DeleteAsync(key);
+            return deleted ?? false;
+        }
+
+        // Triển khai phương thức SubmitFeedbackAsync
+        public async Task<bool> SubmitFeedbackAsync(ConsultantFeedbackDTO feedbackDto)
+        {
+            // Map DTO sang Entity
+            var entity = MapToEntity(feedbackDto);
+            // Gọi repository.AddAsync trả về entity vừa tạo
+            var created = await _feedbackRepository.AddAsync(entity);
+            // Thành công nếu repository trả về non-null
+            return created != null;
         }
 
         private ConsultantFeedbackDTO MapToDTO(ConsultantFeedback feedback)
@@ -60,7 +72,7 @@ namespace GenderHealthcare.BLL.Services
                 FeedbackDate = feedback.FeedbackDate,
                 Rating = feedback.Rating,
                 FeedbackContent = feedback.FeedbackContent,
-                Status = feedback.Status,
+                Status = feedback.Status ?? false,
                 UpdatedAt = feedback.UpdatedAt
             };
         }

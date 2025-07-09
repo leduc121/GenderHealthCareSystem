@@ -12,5 +12,8 @@ namespace GenderHealthcare.BLL.Interfaces
         Task<ConsultantFeedbackDTO> CreateFeedbackAsync(ConsultantFeedbackDTO feedbackDto);
         Task<ConsultantFeedbackDTO> UpdateFeedbackAsync(ConsultantFeedbackDTO feedbackDto);
         Task<bool> DeleteFeedbackAsync(string consultantId, string userId, DateTime feedbackDate);
+
+        // Thêm phương thức này để UI có thể gọi SubmitFeedbackAsync
+        Task<bool> SubmitFeedbackAsync(ConsultantFeedbackDTO feedbackDto);
     }
 }
