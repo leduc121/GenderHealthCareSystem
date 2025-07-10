@@ -73,12 +73,14 @@ namespace GenderHealthcare.UI.Views
 
         private async void SaveButton_Click(object sender, RoutedEventArgs e)
         {
+            // 1) Validate input
             if (string.IsNullOrWhiteSpace(Blog.Title) || string.IsNullOrWhiteSpace(Blog.Content) || Blog.PublishedDate == null)
             {
                 MessageBox.Show("Vui lòng điền đầy đủ thông tin (Tiêu đề, Nội dung, Ngày đăng).", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
+            // 2) Kiểm tra session user
             if (string.IsNullOrEmpty(_currentUserService.UserId))
             {
                 MessageBox.Show("Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại.", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Warning);
@@ -87,13 +89,16 @@ namespace GenderHealthcare.UI.Views
 
             try
             {
+                // 3) Cập nhật BlogDTO
                 Blog.AuthorId = _currentUserService.UserId;
                 Blog.UpdatedAt = DateTime.Now;
 
+                // 4) Gọi service lưu blog
                 await _blogService.CreateBlogAsync(Blog);
 
                 MessageBox.Show("Lưu blog thành công!", "Thành công", MessageBoxButton.OK, MessageBoxImage.Information);
 
+                // 5) Refresh và clear form
                 await LoadBlogsAsync();
                 Blog = new BlogDTO
                 {
@@ -109,23 +114,6 @@ namespace GenderHealthcare.UI.Views
             catch (Exception ex)
             {
                 MessageBox.Show($"Lỗi khi lưu blog: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-        }
-
-        private void ViewDetails_Click(object sender, RoutedEventArgs e)
-        {
-            if (sender is Button button && button.Tag is BlogDTO selectedBlog)
-            {
-                var detailView = new BlogDetailView { Blog = selectedBlog };
-                var window = new Window
-                {
-                    Content = detailView,
-                    Title = "Chi tiết Blog",
-                    Width = 600,
-                    Height = 450,
-                    WindowStartupLocation = WindowStartupLocation.CenterScreen
-                };
-                window.ShowDialog();
             }
         }
     }

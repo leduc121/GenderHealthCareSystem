@@ -151,7 +151,7 @@ namespace GenderHealthcare.UI.Views
                                 "Thành công", MessageBoxButton.OK, MessageBoxImage.Information);
                 txtRating.Clear();
                 txtFeedback.Clear();
-                cmbFeedbackConsultants.Text = "";
+                cmbFeedbackConsultants.SelectedIndex = -1;
             }
             catch (Exception ex)
             {
@@ -163,7 +163,7 @@ namespace GenderHealthcare.UI.Views
         private void LogoutButton_Click(object sender, RoutedEventArgs e)
         {
             var r = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất?",
-                                    "Xác nhận", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                                     "Xác nhận", MessageBoxButton.YesNo, MessageBoxImage.Question);
             if (r != MessageBoxResult.Yes) return;
 
             _userCtx.UserId = null;
@@ -171,23 +171,6 @@ namespace GenderHealthcare.UI.Views
             login.Show();
             Application.Current.MainWindow = login;
             Window.GetWindow(this)?.Close();
-        }
-
-        private void BlogGrid_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        {
-            if (BlogGrid.SelectedItem is BlogDTO selectedBlog)
-            {
-                var detailView = new BlogDetailView { Blog = selectedBlog };
-                var window = new Window
-                {
-                    Content = detailView,
-                    Title = "Chi tiết Blog",
-                    Width = 600,
-                    Height = 450,
-                    WindowStartupLocation = WindowStartupLocation.CenterScreen
-                };
-                window.ShowDialog();
-            }
         }
     }
 }

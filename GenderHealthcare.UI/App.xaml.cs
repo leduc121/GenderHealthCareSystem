@@ -73,7 +73,6 @@ namespace GenderHealthcare.UI
                             )
                         );
                         services.AddTransient<BlogWindow>();
-                        services.AddTransient<BlogDetailView>(); // Thêm đăng ký BlogDetailView
                         services.AddTransient<LoginWindow>(sp =>
                             ActivatorUtilities.CreateInstance<LoginWindow>(sp,
                                 sp.GetRequiredService<IUserService>(),

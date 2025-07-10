@@ -48,13 +48,6 @@
                 <DataGridTextColumn Header="Tác giả ID" Binding="{Binding AuthorId}" Width="*"/>
                 <DataGridTextColumn Header="Ngày đăng" Binding="{Binding PublishedDate, StringFormat=dd/MM/yyyy}" Width="*"/>
                 <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status, Converter={StaticResource BooleanToStringConverter}, ConverterParameter='Kích hoạt|Không kích hoạt'}" Width="*"/>
-                <DataGridTemplateColumn Header="Hành động" Width="*">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <Button Content="Xem chi tiết" Click="ViewDetails_Click" Tag="{Binding}"/>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
     </StackPanel>

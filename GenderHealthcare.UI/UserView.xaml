@@ -102,7 +102,7 @@
             <!-- Tab 8: Xem Blog -->
             <TabItem Header="Xem Blog" x:Name="tabBlogs">
                 <Grid>
-                    <DataGrid x:Name="BlogGrid" Margin="10" AutoGenerateColumns="False" IsReadOnly="True" MouseDoubleClick="BlogGrid_MouseDoubleClick">
+                    <DataGrid x:Name="BlogGrid" Margin="10" AutoGenerateColumns="False" IsReadOnly="True">
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="ID" FontFamily="Arial" Binding="{Binding Id}" Width="100"/>
                             <DataGridTextColumn Header="Tiêu đề" FontFamily="Arial" Binding="{Binding Title}" Width="*"/>

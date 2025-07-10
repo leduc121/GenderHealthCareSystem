@@ -454,5 +454,3 @@ E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Deb
 E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\ConsultantView.g.cs
 E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\OfferManagementView.g.cs
 E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\StdDiseaseManagementView.g.cs
-E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\BlogDetailView.g.cs
-E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\obj\Debug\net8.0-windows\BlogDetailView.baml

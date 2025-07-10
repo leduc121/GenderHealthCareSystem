@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\blogdetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\blogdetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\blogdetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\blogdetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\userview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\userview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\blogwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\blogwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\userview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\userview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\blogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\blogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,6 +23,14 @@
       "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\blogwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\blogwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\blogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\blogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\cycletrackerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\cycletrackerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -57,6 +41,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\cycletrackerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\cycletrackerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\userview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\userview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\userview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|solutionrelative:genderhealthcare.ui\\userview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B85AD9D3-BFB6-497B-A781-033F5264C69B}|GenderHealthcare.UI\\GenderHealthcare.UI.csproj|e:\\fpt\\ky\\ky 5\\prn212\\project\\genderhealthcaresystem\\genderhealthcare.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -254,7 +246,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -262,27 +254,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlogDetailView.xaml",
-              "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\BlogDetailView.xaml",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\BlogDetailView.xaml",
-              "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\BlogDetailView.xaml",
-              "RelativeToolTip": "GenderHealthcare.UI\\BlogDetailView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-09T17:06:40.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserView.xaml.cs",
-              "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\UserView.xaml.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\UserView.xaml.cs",
-              "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\UserView.xaml.cs",
-              "RelativeToolTip": "GenderHealthcare.UI\\UserView.xaml.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAIAwwK0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "BlogWindow.xaml.cs",
+              "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\BlogWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.UI\\BlogWindow.xaml.cs",
+              "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\BlogWindow.xaml.cs",
+              "RelativeToolTip": "GenderHealthcare.UI\\BlogWindow.xaml.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAIwHcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T09:23:50.905Z",
+              "WhenOpened": "2025-07-07T11:53:28.952Z",
               "EditorCaption": ""
             },
             {
@@ -299,80 +279,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BlogWindow.xaml.cs",
-              "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\BlogWindow.xaml.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\BlogWindow.xaml.cs",
-              "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\BlogWindow.xaml.cs",
-              "RelativeToolTip": "GenderHealthcare.UI\\BlogWindow.xaml.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAIwIMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T11:53:28.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\App.xaml.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\App.xaml.cs",
               "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\App.xaml.cs",
               "RelativeToolTip": "GenderHealthcare.UI\\App.xaml.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAIwJUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAIwIsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-06T09:24:26.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlogDetailView.xaml.cs",
-              "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\BlogDetailView.xaml.cs",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\BlogDetailView.xaml.cs",
-              "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\BlogDetailView.xaml.cs",
-              "RelativeToolTip": "GenderHealthcare.UI\\BlogDetailView.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T17:07:05.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserView.xaml",
-              "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\UserView.xaml",
-              "RelativeDocumentMoniker": "GenderHealthcare.UI\\UserView.xaml",
-              "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\UserView.xaml",
-              "RelativeToolTip": "GenderHealthcare.UI\\UserView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-06T09:22:59.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\LoginWindow.xaml",
               "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\LoginWindow.xaml",
               "RelativeToolTip": "GenderHealthcare.UI\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-09T16:56:24.116Z"
+              "WhenOpened": "2025-07-09T16:56:24.116Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\MainWindow.xaml",
               "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\MainWindow.xaml",
               "RelativeToolTip": "GenderHealthcare.UI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-07T11:45:12.911Z"
+              "WhenOpened": "2025-07-07T11:45:12.911Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\MainWindow.xaml.cs",
@@ -380,11 +324,12 @@
               "RelativeToolTip": "GenderHealthcare.UI\\MainWindow.xaml.cs",
               "ViewState": "AgIAAG8BAAAAAAAAAADwv40BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T11:50:20.843Z"
+              "WhenOpened": "2025-07-07T11:50:20.843Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\LoginWindow.xaml.cs",
@@ -392,22 +337,24 @@
               "RelativeToolTip": "GenderHealthcare.UI\\LoginWindow.xaml.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAADwv10AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T12:32:02.626Z"
+              "WhenOpened": "2025-07-07T12:32:02.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "PaymentManagementView.xaml",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\PaymentManagementView.xaml",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\PaymentManagementView.xaml",
               "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\PaymentManagementView.xaml",
               "RelativeToolTip": "GenderHealthcare.UI\\PaymentManagementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-09T16:35:40.328Z"
+              "WhenOpened": "2025-07-09T16:35:40.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "CycleTrackerView.xaml",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\CycleTrackerView.xaml",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\CycleTrackerView.xaml",
@@ -419,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "CycleTrackerView.xaml.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\CycleTrackerView.xaml.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\CycleTrackerView.xaml.cs",
@@ -427,11 +374,37 @@
               "RelativeToolTip": "GenderHealthcare.UI\\CycleTrackerView.xaml.cs",
               "ViewState": "AgIAAH4AAAAAAAAAAAAIwJ0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T16:33:07.778Z"
+              "WhenOpened": "2025-07-09T16:33:07.778Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 10,
+              "Title": "UserView.xaml.cs",
+              "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\UserView.xaml.cs",
+              "RelativeDocumentMoniker": "GenderHealthcare.UI\\UserView.xaml.cs",
+              "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\UserView.xaml.cs",
+              "RelativeToolTip": "GenderHealthcare.UI\\UserView.xaml.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAIwK8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:23:50.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserView.xaml",
+              "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\UserView.xaml",
+              "RelativeDocumentMoniker": "GenderHealthcare.UI\\UserView.xaml",
+              "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\UserView.xaml",
+              "RelativeToolTip": "GenderHealthcare.UI\\UserView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-06T09:22:59.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "IAppointmentService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Interfaces\\IAppointmentService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Interfaces\\IAppointmentService.cs",
@@ -443,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "OfferRepository.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\OfferRepository.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\OfferRepository.cs",
@@ -451,11 +424,12 @@
               "RelativeToolTip": "GenderHealthcare.DAL\\Repositories\\OfferRepository.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwDMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T10:40:55.548Z"
+              "WhenOpened": "2025-07-06T10:40:55.548Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "ConsultantView.xaml",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\ConsultantView.xaml",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\ConsultantView.xaml",
@@ -466,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "ConsultantView.xaml.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\ConsultantView.xaml.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\ConsultantView.xaml.cs",
@@ -478,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "AppointmentService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\AppointmentService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Services\\AppointmentService.cs",
@@ -490,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "App.xaml",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\App.xaml",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\App.xaml",
@@ -502,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "GenderHealthcareContext.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Entities\\GenderHealthcareContext.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Entities\\GenderHealthcareContext.cs",
@@ -510,11 +484,12 @@
               "RelativeToolTip": "GenderHealthcare.DAL\\Entities\\GenderHealthcareContext.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAiwDQAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T14:54:09.403Z"
+              "WhenOpened": "2025-07-06T14:54:09.403Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "Repository.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\Repository.cs",
@@ -526,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "ConsultantProfileRepository.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\ConsultantProfileRepository.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\ConsultantProfileRepository.cs",
@@ -538,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "ConsultantFeedbackRepository.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\ConsultantFeedbackRepository.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\ConsultantFeedbackRepository.cs",
@@ -550,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\UserRepository.cs",
@@ -562,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 28,
               "Title": "OfferManagementView.xaml.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\OfferManagementView.xaml.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\OfferManagementView.xaml.cs",
@@ -574,18 +549,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 27,
               "Title": "OfferManagementView.xaml",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\OfferManagementView.xaml",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\OfferManagementView.xaml",
               "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\OfferManagementView.xaml",
               "RelativeToolTip": "GenderHealthcare.UI\\OfferManagementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-08T13:10:00.516Z"
+              "WhenOpened": "2025-07-08T13:10:00.516Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 26,
               "Title": "StdDiseaseManagementView.xaml.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\StdDiseaseManagementView.xaml.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\StdDiseaseManagementView.xaml.cs",
@@ -597,18 +573,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "StdDiseaseManagementView.xaml",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\StdDiseaseManagementView.xaml",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\StdDiseaseManagementView.xaml",
               "ToolTip": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\StdDiseaseManagementView.xaml",
               "RelativeToolTip": "GenderHealthcare.UI\\StdDiseaseManagementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-08T12:45:08.72Z"
+              "WhenOpened": "2025-07-08T12:45:08.72Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 41,
               "Title": "RoleService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\RoleService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Services\\RoleService.cs",
@@ -620,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "RoleRepository.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\RoleRepository.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\RoleRepository.cs",
@@ -632,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 39,
               "Title": "BooleanToStringConverter.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\Converters\\BooleanToStringConverter.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\Converters\\BooleanToStringConverter.cs",
@@ -644,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 37,
               "Title": "BlogService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\BlogService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Services\\BlogService.cs",
@@ -656,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 38,
               "Title": "ConsultantFeedbackService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\ConsultantFeedbackService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Services\\ConsultantFeedbackService.cs",
@@ -668,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 42,
               "Title": "IRoleService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Interfaces\\IRoleService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Interfaces\\IRoleService.cs",
@@ -680,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 40,
               "Title": "AppointmentBookingView.xaml.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\AppointmentBookingView.xaml.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\AppointmentBookingView.xaml.cs",
@@ -692,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 43,
               "Title": "IRoleRepository.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Interfaces\\IRoleRepository.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Interfaces\\IRoleRepository.cs",
@@ -704,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 44,
               "Title": "CurrentUserService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\CurrentUserService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Services\\CurrentUserService.cs",
@@ -716,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 45,
               "Title": "ICurrentUserService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Interfaces\\ICurrentUserService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Interfaces\\ICurrentUserService.cs",
@@ -728,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 46,
               "Title": "BlogRepository.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\BlogRepository.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\BlogRepository.cs",
@@ -740,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 47,
               "Title": "IBlogRepository.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Interfaces\\IBlogRepository.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Interfaces\\IBlogRepository.cs",
@@ -752,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 48,
               "Title": "BoolToVisibilityConverter.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\Converters\\BoolToVisibilityConverter.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\Converters\\BoolToVisibilityConverter.cs",
@@ -764,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 49,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Entities\\User.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Entities\\User.cs",
@@ -776,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 51,
               "Title": "Blog.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Entities\\Blog.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Entities\\Blog.cs",
@@ -788,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 52,
               "Title": "IBlogService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Interfaces\\IBlogService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Interfaces\\IBlogService.cs",
@@ -800,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 53,
               "Title": "BlogDTO.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\DTOs\\BlogDTO.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\DTOs\\BlogDTO.cs",
@@ -812,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 50,
               "Title": "RoleDTO.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\DTOs\\RoleDTO.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\DTOs\\RoleDTO.cs",
@@ -824,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 30,
               "Title": "IOfferRepository.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Interfaces\\IOfferRepository.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Interfaces\\IOfferRepository.cs",
@@ -836,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 32,
               "Title": "IOfferService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Interfaces\\IOfferService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Interfaces\\IOfferService.cs",
@@ -848,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 54,
               "Title": "OfferDTO.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\DTOs\\OfferDTO.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\DTOs\\OfferDTO.cs",
@@ -860,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 31,
               "Title": "OfferService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\OfferService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Services\\OfferService.cs",
@@ -872,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "StdDiseaseView.xaml.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\StdDiseaseView.xaml.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\StdDiseaseView.xaml.cs",
@@ -884,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "StdDiseaseView.xaml",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\StdDiseaseView.xaml",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\StdDiseaseView.xaml",
@@ -895,7 +872,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 56,
               "Title": "StdDiseaseViewModel.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\StdDiseaseViewModel.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\StdDiseaseViewModel.cs",
@@ -907,7 +884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 35,
               "Title": "StdDiseaseService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Services\\StdDiseaseService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Services\\StdDiseaseService.cs",
@@ -919,7 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 36,
               "Title": "IStdDiseaseService.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\Interfaces\\IStdDiseaseService.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\Interfaces\\IStdDiseaseService.cs",
@@ -931,7 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 55,
               "Title": "StdDiseaseDTO.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.BLL\\DTOs\\StdDiseaseDTO.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.BLL\\DTOs\\StdDiseaseDTO.cs",
@@ -943,7 +920,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 33,
               "Title": "StdDiseaseRepository.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Repositories\\StdDiseaseRepository.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Repositories\\StdDiseaseRepository.cs",
@@ -955,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 34,
               "Title": "IStdDiseaseRepository.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.DAL\\Interfaces\\IStdDiseaseRepository.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.DAL\\Interfaces\\IStdDiseaseRepository.cs",
@@ -967,7 +944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 58,
               "Title": "UserNotificationsView.xaml.cs",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\UserNotificationsView.xaml.cs",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\UserNotificationsView.xaml.cs",
@@ -979,7 +956,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 57,
               "Title": "UserNotificationsView.xaml",
               "DocumentMoniker": "E:\\FPT\\Ky\\Ky 5\\PRN212\\Project\\GenderHealthcareSystem\\GenderHealthcare.UI\\UserNotificationsView.xaml",
               "RelativeDocumentMoniker": "GenderHealthcare.UI\\UserNotificationsView.xaml",

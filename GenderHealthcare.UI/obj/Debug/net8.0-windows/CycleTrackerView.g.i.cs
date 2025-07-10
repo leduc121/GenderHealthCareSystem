@@ -92,7 +92,7 @@ namespace GenderHealthcare.UI.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GenderHealthcare.UI;V1.0.0.0;component/cycletrackerview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GenderHealthcare.UI;component/cycletrackerview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CycleTrackerView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

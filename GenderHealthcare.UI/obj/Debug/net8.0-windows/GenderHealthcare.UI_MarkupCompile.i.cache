@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 E:\FPT\Ky\Ky 5\PRN212\Project\GenderHealthcareSystem\GenderHealthcare.UI\App.xaml
-15-1067135572
+141690185946
 
-26-1739604314
+25652173039
 250418048137
-AppointmentBookingView.xaml;BlogDetailView.xaml;BlogWindow.xaml;ConsultantView.xaml;CycleTrackerView.xaml;FeedbackManagementView.xaml;LoginWindow.xaml;MainWindow.xaml;OfferManagementView.xaml;PaymentManagementView.xaml;StdDiseaseManagementView.xaml;StdDiseaseView.xaml;UserAppointmentsView.xaml;UserNotificationsView.xaml;UserView.xaml;
+AppointmentBookingView.xaml;BlogWindow.xaml;ConsultantView.xaml;CycleTrackerView.xaml;FeedbackManagementView.xaml;LoginWindow.xaml;MainWindow.xaml;OfferManagementView.xaml;PaymentManagementView.xaml;StdDiseaseManagementView.xaml;StdDiseaseView.xaml;UserAppointmentsView.xaml;UserNotificationsView.xaml;UserView.xaml;
 
-False
+True
 
